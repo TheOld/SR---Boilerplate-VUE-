@@ -1,0 +1,46 @@
+// Modules
+// Key points of the CSS module system
+// - All css should be defined in a css module.
+// - All css modules should use the BEM naming convention.
+// - All css modules should have a comment detailing their usage and provide
+//     an example of the basic HTML structure expected.
+
+// Environment setup
+// ==========================================================================
+@import "~normalize-css/normalize.css"; // Reset styles
+
+// Variable & mixins
+// ==========================================================================
+@import "variables.less";
+@import "core/easing.less";
+@import "core/mixins.less";
+@import "core/helpers.less";
+
+// Core
+// ==========================================================================
+@import "core/layout.less"; // Grid and base layout styles (l)
+@import "core/fonts.less"; // Fonts
+@import "core/typography.less"; // Type styles (type)
+@import "core/icons.less"; // Type styles (type)
+@import "core/helpers.less"; // Helper classes for adaptive grid
+@import "core/debug-grid.less"; // Helpers to aligns elements up
+
+// Settings
+// ==========================================================================
+@import "settings/whitespace.less"; // Manage margin and padding
+@import "settings/fonts.less"; // Manage fonts size
+
+// Trumps
+// ==========================================================================
+@import "trumps/gradient-border.less"; // Gradient border style
+@import "trumps/gradient-background.less"; // Gradient background style
+@import "trumps/block-drop-shadow.less"; // Block drop shadow style
+@import "trumps/background-noise.less"; // Background noise style
+@import "trumps/background-halo.less"; // Background halo style
+@import "trumps/skewed-hover.less"; // Skewed hover effect (takes place in main navigation and tab)
+@import "trumps/background-image-content.less"; // Style for component with background image and content on top
+@import "trumps/form-symbols.less"; // Style for form symbol (required, valid...)
+@import "trumps/blur.less"; // Style for blurry element
+@import "trumps/skewed-tile-whitespace.less"; // Manage whitespace for content underneat skewed tile
+@import "trumps/transitions.less"; // Centralized defined vue transitions
+@import "trumps/image-placeholder.less"; // Image placeholder
