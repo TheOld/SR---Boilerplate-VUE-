@@ -8,11 +8,23 @@ import Barba from 'barba.js';
 import select from 'dom-select';
 import dataset from 'dataset';
 import { pageTransitionFactory } from './pages';
+import Demo from './components/demo.jsx';
 
 require('es6-promise').polyfill();
 
 window.addEventListener('DOMContentLoaded', function() {
 	console.log('DOMContentLoaded!');
+
+	const appElement = document.querySelector('.js--app');
+	if (appElement) {
+		ReactDOM.render(
+			<Demo />,
+			appElement
+		);
+	}
+
+	// init loader
+	NProgress.start();
 
 	// start pjax
 	Barba.Pjax.start();
@@ -31,8 +43,8 @@ window.addEventListener('DOMContentLoaded', function() {
 	});
 
 	Barba.Dispatcher.on('initStateChange', () => {
-        console.log('initStateChange');
-        // Do any necessary destroys here
+		console.log('initStateChange');
+		// Do any necessary destroys here
 
 		NProgress.inc();
 		window.element = null;
@@ -46,17 +58,8 @@ window.addEventListener('DOMContentLoaded', function() {
 	Barba.Dispatcher.on('transitionCompleted', () => {
 		console.log('transitionCompleted');
 
-        NProgress.done();
+		NProgress.done();
 
-        // Reapply necessary ui/interactions
+		// Reapply necessary ui/interactions
 	});
-
-
-	const appElement = document.querySelector('.js--app');
-	if (appElement) {
-
-	}
-
-	// init loader
-	NProgress.start();
 });
