@@ -86,10 +86,6 @@ abbrev@1:
   version "1.1.1"
   resolved "https://npm.heyday.net.nz/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
 
-absolute@0.0.1:
-  version "0.0.1"
-  resolved "https://npm.heyday.net.nz/absolute/-/absolute-0.0.1.tgz#c22822f87e1c939f579887504d9c109c4173829d"
-
 accepts@1.3.3:
   version "1.3.3"
   resolved "https://npm.heyday.net.nz/accepts/-/accepts-1.3.3.tgz#c3ca7434938648c3e0d9c1e328dd68b622c284ca"
@@ -190,12 +186,6 @@ ansi-html@0.0.7:
   version "0.0.7"
   resolved "https://npm.heyday.net.nz/ansi-html/-/ansi-html-0.0.7.tgz#813584021962a9e9e6fd039f940d12f56ca7859e"
 
-ansi-red@^0.1.1:
-  version "0.1.1"
-  resolved "https://npm.heyday.net.nz/ansi-red/-/ansi-red-0.1.1.tgz#8c638f9d1080800a353c9c28c8a81ca4705d946c"
-  dependencies:
-    ansi-wrap "0.1.0"
-
 ansi-regex@^2.0.0:
   version "2.1.1"
   resolved "https://npm.heyday.net.nz/ansi-regex/-/ansi-regex-2.1.1.tgz#c3b33ab5ee360d86e0e628f0468ae7ef27d654df"
@@ -213,10 +203,6 @@ ansi-styles@^3.1.0, ansi-styles@^3.2.0:
   resolved "https://npm.heyday.net.nz/ansi-styles/-/ansi-styles-3.2.0.tgz#c159b8d5be0f9e5a6f346dab94f16ce022161b88"
   dependencies:
     color-convert "^1.9.0"
-
-ansi-wrap@0.1.0:
-  version "0.1.0"
-  resolved "https://npm.heyday.net.nz/ansi-wrap/-/ansi-wrap-0.1.0.tgz#a82250ddb0015e9a27ca82e82ea603bbfa45efaf"
 
 anymatch@^1.3.0:
   version "1.3.2"
@@ -257,10 +243,6 @@ arr-diff@^2.0.0:
 arr-flatten@^1.0.1:
   version "1.1.0"
   resolved "https://npm.heyday.net.nz/arr-flatten/-/arr-flatten-1.1.0.tgz#36048bbff4e7b47e136644316c99669ea5ae91f1"
-
-array-differ@^1.0.0:
-  version "1.0.0"
-  resolved "https://npm.heyday.net.nz/array-differ/-/array-differ-1.0.0.tgz#eff52e3758249d33be402b8bb8e564bb2b5d4031"
 
 array-equal@^1.0.0:
   version "1.0.0"
@@ -341,10 +323,6 @@ assets-loader@^0.5.1:
   version "0.5.1"
   resolved "https://npm.heyday.net.nz/assets-loader/-/assets-loader-0.5.1.tgz#8095e4a029ec8fb9c127d27fc5cdf378e32a12e4"
 
-ast-types@0.9.6:
-  version "0.9.6"
-  resolved "https://npm.heyday.net.nz/ast-types/-/ast-types-0.9.6.tgz#102c9e9e9005d3e7e3829bf0c4fa24ee862ee9b9"
-
 astral-regex@^1.0.0:
   version "1.0.0"
   resolved "https://npm.heyday.net.nz/astral-regex/-/astral-regex-1.0.0.tgz#6c8c3fb827dd43ee3918f27b82782ab7658a6fd9"
@@ -367,15 +345,11 @@ async@^1.4.0, async@^1.5.2:
   version "1.5.2"
   resolved "https://npm.heyday.net.nz/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
 
-async@^2.1.2, async@^2.1.4, async@^2.4.0, async@^2.4.1:
+async@^2.1.2, async@^2.1.4, async@^2.4.1:
   version "2.6.0"
   resolved "https://npm.heyday.net.nz/async/-/async-2.6.0.tgz#61a29abb6fcc026fea77e56d1c6ec53a795951f4"
   dependencies:
     lodash "^4.14.0"
-
-async@~0.2.6:
-  version "0.2.10"
-  resolved "https://npm.heyday.net.nz/async/-/async-0.2.10.tgz#b6bbe0b0674b9d719708ca38de8c237cb526c3d1"
 
 asynckit@^0.4.0:
   version "0.4.0"
@@ -474,6 +448,14 @@ babel-helper-builder-binary-assignment-operator-visitor@^6.24.1:
     babel-runtime "^6.22.0"
     babel-types "^6.24.1"
 
+babel-helper-builder-react-jsx@^6.24.1:
+  version "6.26.0"
+  resolved "https://npm.heyday.net.nz/babel-helper-builder-react-jsx/-/babel-helper-builder-react-jsx-6.26.0.tgz#39ff8313b75c8b65dceff1f31d383e0ff2a408a0"
+  dependencies:
+    babel-runtime "^6.26.0"
+    babel-types "^6.26.0"
+    esutils "^2.0.2"
+
 babel-helper-call-delegate@^6.24.1:
   version "6.24.1"
   resolved "https://npm.heyday.net.nz/babel-helper-call-delegate/-/babel-helper-call-delegate-6.24.1.tgz#ece6aacddc76e41c3461f88bfc575bd0daa2df8d"
@@ -552,13 +534,6 @@ babel-helper-is-void-0@^0.1.1:
 babel-helper-mark-eval-scopes@^0.1.1:
   version "0.1.1"
   resolved "https://npm.heyday.net.nz/babel-helper-mark-eval-scopes/-/babel-helper-mark-eval-scopes-0.1.1.tgz#4554345edf9f2549427bd2098e530253f8af2992"
-
-babel-helper-module-imports@^7.0.0-beta.3:
-  version "7.0.0-beta.3"
-  resolved "https://npm.heyday.net.nz/babel-helper-module-imports/-/babel-helper-module-imports-7.0.0-beta.3.tgz#e15764e3af9c8e11810c09f78f498a2bdc71585a"
-  dependencies:
-    babel-types "7.0.0-beta.3"
-    lodash "^4.2.0"
 
 babel-helper-optimise-call-expression@^6.24.1:
   version "6.24.1"
@@ -649,16 +624,6 @@ babel-plugin-istanbul@^4.0.0:
 babel-plugin-jest-hoist@^21.2.0:
   version "21.2.0"
   resolved "https://npm.heyday.net.nz/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-21.2.0.tgz#2cef637259bd4b628a6cace039de5fcd14dbb006"
-
-babel-plugin-lodash@^3.2.11:
-  version "3.3.2"
-  resolved "https://npm.heyday.net.nz/babel-plugin-lodash/-/babel-plugin-lodash-3.3.2.tgz#da3a5b49ba27447f54463f6c4fa81396ccdd463f"
-  dependencies:
-    babel-helper-module-imports "^7.0.0-beta.3"
-    babel-types "^6.26.0"
-    glob "^7.1.1"
-    lodash "^4.17.4"
-    require-package-name "^2.0.1"
 
 babel-plugin-minify-builtins@^0.1.3:
   version "0.1.3"
@@ -760,9 +725,17 @@ babel-plugin-syntax-export-extensions@^6.8.0:
   version "6.13.0"
   resolved "https://npm.heyday.net.nz/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-6.13.0.tgz#70a1484f0f9089a4e84ad44bac353c95b9b12721"
 
+babel-plugin-syntax-flow@^6.18.0:
+  version "6.18.0"
+  resolved "https://npm.heyday.net.nz/babel-plugin-syntax-flow/-/babel-plugin-syntax-flow-6.18.0.tgz#4c3ab20a2af26aa20cd25995c398c4eb70310c8d"
+
 babel-plugin-syntax-function-bind@^6.8.0:
   version "6.13.0"
   resolved "https://npm.heyday.net.nz/babel-plugin-syntax-function-bind/-/babel-plugin-syntax-function-bind-6.13.0.tgz#48c495f177bdf31a981e732f55adc0bdd2601f46"
+
+babel-plugin-syntax-jsx@^6.3.13, babel-plugin-syntax-jsx@^6.8.0:
+  version "6.18.0"
+  resolved "https://npm.heyday.net.nz/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.18.0.tgz#0af32a9a6e13ca7a3fd5069e62d7b0f58d0d8946"
 
 babel-plugin-syntax-object-rest-spread@^6.13.0, babel-plugin-syntax-object-rest-spread@^6.8.0:
   version "6.13.0"
@@ -1005,6 +978,13 @@ babel-plugin-transform-export-extensions@^6.22.0:
     babel-plugin-syntax-export-extensions "^6.8.0"
     babel-runtime "^6.22.0"
 
+babel-plugin-transform-flow-strip-types@^6.22.0:
+  version "6.22.0"
+  resolved "https://npm.heyday.net.nz/babel-plugin-transform-flow-strip-types/-/babel-plugin-transform-flow-strip-types-6.22.0.tgz#84cb672935d43714fdc32bce84568d87441cf7cf"
+  dependencies:
+    babel-plugin-syntax-flow "^6.18.0"
+    babel-runtime "^6.22.0"
+
 babel-plugin-transform-function-bind@^6.22.0:
   version "6.22.0"
   resolved "https://npm.heyday.net.nz/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-6.22.0.tgz#c6fb8e96ac296a310b8cf8ea401462407ddf6a97"
@@ -1041,6 +1021,34 @@ babel-plugin-transform-property-literals@^6.8.4:
   dependencies:
     esutils "^2.0.2"
 
+babel-plugin-transform-react-display-name@^6.23.0:
+  version "6.25.0"
+  resolved "https://npm.heyday.net.nz/babel-plugin-transform-react-display-name/-/babel-plugin-transform-react-display-name-6.25.0.tgz#67e2bf1f1e9c93ab08db96792e05392bf2cc28d1"
+  dependencies:
+    babel-runtime "^6.22.0"
+
+babel-plugin-transform-react-jsx-self@^6.22.0:
+  version "6.22.0"
+  resolved "https://npm.heyday.net.nz/babel-plugin-transform-react-jsx-self/-/babel-plugin-transform-react-jsx-self-6.22.0.tgz#df6d80a9da2612a121e6ddd7558bcbecf06e636e"
+  dependencies:
+    babel-plugin-syntax-jsx "^6.8.0"
+    babel-runtime "^6.22.0"
+
+babel-plugin-transform-react-jsx-source@^6.22.0:
+  version "6.22.0"
+  resolved "https://npm.heyday.net.nz/babel-plugin-transform-react-jsx-source/-/babel-plugin-transform-react-jsx-source-6.22.0.tgz#66ac12153f5cd2d17b3c19268f4bf0197f44ecd6"
+  dependencies:
+    babel-plugin-syntax-jsx "^6.8.0"
+    babel-runtime "^6.22.0"
+
+babel-plugin-transform-react-jsx@^6.24.1:
+  version "6.24.1"
+  resolved "https://npm.heyday.net.nz/babel-plugin-transform-react-jsx/-/babel-plugin-transform-react-jsx-6.24.1.tgz#840a028e7df460dfc3a2d29f0c0d91f6376e66a3"
+  dependencies:
+    babel-helper-builder-react-jsx "^6.24.1"
+    babel-plugin-syntax-jsx "^6.8.0"
+    babel-runtime "^6.22.0"
+
 babel-plugin-transform-regenerator@^6.24.1:
   version "6.26.0"
   resolved "https://npm.heyday.net.nz/babel-plugin-transform-regenerator/-/babel-plugin-transform-regenerator-6.26.0.tgz#e0703696fbde27f0a3efcacf8b4dca2f7b3a8f2f"
@@ -1062,12 +1070,6 @@ babel-plugin-transform-remove-debugger@^6.8.4:
 babel-plugin-transform-remove-undefined@^0.1.2:
   version "0.1.2"
   resolved "https://npm.heyday.net.nz/babel-plugin-transform-remove-undefined/-/babel-plugin-transform-remove-undefined-0.1.2.tgz#e1ebf51110f6b1e0665f28382ef73f95e5023652"
-
-babel-plugin-transform-runtime@6.23.0, babel-plugin-transform-runtime@^6.15.0:
-  version "6.23.0"
-  resolved "https://npm.heyday.net.nz/babel-plugin-transform-runtime/-/babel-plugin-transform-runtime-6.23.0.tgz#88490d446502ea9b8e7efb0fe09ec4d99479b1ee"
-  dependencies:
-    babel-runtime "^6.22.0"
 
 babel-plugin-transform-simplify-comparison-operators@^6.8.4:
   version "6.8.5"
@@ -1149,12 +1151,29 @@ babel-preset-es2015@^6.24.1:
     babel-plugin-transform-es2015-unicode-regex "^6.24.1"
     babel-plugin-transform-regenerator "^6.24.1"
 
+babel-preset-flow@^6.23.0:
+  version "6.23.0"
+  resolved "https://npm.heyday.net.nz/babel-preset-flow/-/babel-preset-flow-6.23.0.tgz#e71218887085ae9a24b5be4169affb599816c49d"
+  dependencies:
+    babel-plugin-transform-flow-strip-types "^6.22.0"
+
 babel-preset-jest@^21.2.0:
   version "21.2.0"
   resolved "https://npm.heyday.net.nz/babel-preset-jest/-/babel-preset-jest-21.2.0.tgz#ff9d2bce08abd98e8a36d9a8a5189b9173b85638"
   dependencies:
     babel-plugin-jest-hoist "^21.2.0"
     babel-plugin-syntax-object-rest-spread "^6.13.0"
+
+babel-preset-react@^6.24.1:
+  version "6.24.1"
+  resolved "https://npm.heyday.net.nz/babel-preset-react/-/babel-preset-react-6.24.1.tgz#ba69dfaea45fc3ec639b6a4ecea6e17702c91380"
+  dependencies:
+    babel-plugin-syntax-jsx "^6.3.13"
+    babel-plugin-transform-react-display-name "^6.23.0"
+    babel-plugin-transform-react-jsx "^6.24.1"
+    babel-plugin-transform-react-jsx-self "^6.22.0"
+    babel-plugin-transform-react-jsx-source "^6.22.0"
+    babel-preset-flow "^6.23.0"
 
 babel-preset-stage-0@^6.24.1:
   version "6.24.1"
@@ -1203,12 +1222,6 @@ babel-register@^6.26.0:
     mkdirp "^0.5.1"
     source-map-support "^0.4.15"
 
-babel-runtime@^5.8.0:
-  version "5.8.38"
-  resolved "https://npm.heyday.net.nz/babel-runtime/-/babel-runtime-5.8.38.tgz#1c0b02eb63312f5f087ff20450827b425c9d4c19"
-  dependencies:
-    core-js "^1.0.0"
-
 babel-runtime@^6.18.0, babel-runtime@^6.22.0, babel-runtime@^6.26.0:
   version "6.26.0"
   resolved "https://npm.heyday.net.nz/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
@@ -1239,14 +1252,6 @@ babel-traverse@^6.18.0, babel-traverse@^6.23.1, babel-traverse@^6.24.1, babel-tr
     globals "^9.18.0"
     invariant "^2.2.2"
     lodash "^4.17.4"
-
-babel-types@7.0.0-beta.3:
-  version "7.0.0-beta.3"
-  resolved "https://npm.heyday.net.nz/babel-types/-/babel-types-7.0.0-beta.3.tgz#cd927ca70e0ae8ab05f4aab83778cfb3e6eb20b4"
-  dependencies:
-    esutils "^2.0.2"
-    lodash "^4.2.0"
-    to-fast-properties "^2.0.0"
 
 babel-types@^6.18.0, babel-types@^6.19.0, babel-types@^6.23.0, babel-types@^6.24.1, babel-types@^6.26.0, babel-types@^6.7.2:
   version "6.26.0"
@@ -1293,10 +1298,6 @@ base64-arraybuffer@0.1.5:
   version "0.1.5"
   resolved "https://npm.heyday.net.nz/base64-arraybuffer/-/base64-arraybuffer-0.1.5.tgz#73926771923b5a19747ad666aa5cd4bf9c6e9ce8"
 
-base64-js@0.0.8:
-  version "0.0.8"
-  resolved "https://npm.heyday.net.nz/base64-js/-/base64-js-0.0.8.tgz#1101e9544f4a76b1bc3b26d452ca96d7a35e7978"
-
 base64-js@^1.0.2:
   version "1.2.1"
   resolved "https://npm.heyday.net.nz/base64-js/-/base64-js-1.2.1.tgz#a91947da1f4a516ea38e5b4ec0ec3773675e0886"
@@ -1330,10 +1331,6 @@ better-sqlite3@^4.0.2:
     lzz-gyp "^0.4.2"
     to-descriptor "^1.0.1"
 
-bezier-easing@^2.0.3:
-  version "2.0.3"
-  resolved "https://npm.heyday.net.nz/bezier-easing/-/bezier-easing-2.0.3.tgz#cb493fddb7f8920ecca00973344ce0518885f17e"
-
 big.js@^3.1.3:
   version "3.2.0"
   resolved "https://npm.heyday.net.nz/big.js/-/big.js-3.2.0.tgz#a5fc298b81b9e0dca2e458824784b65c52ba588e"
@@ -1345,12 +1342,6 @@ binary-extensions@^1.0.0:
 bindings@^1.2.1:
   version "1.3.0"
   resolved "https://npm.heyday.net.nz/bindings/-/bindings-1.3.0.tgz#b346f6ecf6a95f5a815c5839fc7cdb22502f1ed7"
-
-bl@^1.0.0:
-  version "1.2.1"
-  resolved "https://npm.heyday.net.nz/bl/-/bl-1.2.1.tgz#cac328f7bee45730d404b692203fcb590e172d5e"
-  dependencies:
-    readable-stream "^2.0.5"
 
 blessed@^0.1.81:
   version "0.1.81"
@@ -1370,7 +1361,7 @@ bluebird@3.5.0:
   version "3.5.0"
   resolved "https://npm.heyday.net.nz/bluebird/-/bluebird-3.5.0.tgz#791420d7f551eea2897453a8a77653f96606d67c"
 
-bluebird@^3.1.1, bluebird@^3.5.0:
+bluebird@^3.5.0:
   version "3.5.1"
   resolved "https://npm.heyday.net.nz/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
 
@@ -1422,7 +1413,7 @@ boom@5.x.x:
   dependencies:
     hoek "4.x.x"
 
-brace-expansion@^1.0.0, brace-expansion@^1.1.7:
+brace-expansion@^1.1.7:
   version "1.1.8"
   resolved "https://npm.heyday.net.nz/brace-expansion/-/brace-expansion-1.1.8.tgz#c07b211c7c952ec1f8efd51a77ef0d1d3990a292"
   dependencies:
@@ -1524,14 +1515,6 @@ buffer-xor@^1.0.3:
   version "1.0.3"
   resolved "https://npm.heyday.net.nz/buffer-xor/-/buffer-xor-1.0.3.tgz#26e61ed1422fb70dd42e6e36729ed51d855fe8d9"
 
-buffer@^3.0.1:
-  version "3.6.0"
-  resolved "https://npm.heyday.net.nz/buffer/-/buffer-3.6.0.tgz#a72c936f77b96bf52f5f7e7b467180628551defb"
-  dependencies:
-    base64-js "0.0.8"
-    ieee754 "^1.1.4"
-    isarray "^1.0.0"
-
 buffer@^4.3.0:
   version "4.9.1"
   resolved "https://npm.heyday.net.nz/buffer/-/buffer-4.9.1.tgz#6d1bb601b07a4efced97094132093027c95bc298"
@@ -1547,10 +1530,6 @@ builtin-modules@^1.0.0, builtin-modules@^1.1.1:
 builtin-status-codes@^3.0.0:
   version "3.0.0"
   resolved "https://npm.heyday.net.nz/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
-
-builtins@^1.0.3:
-  version "1.0.3"
-  resolved "https://npm.heyday.net.nz/builtins/-/builtins-1.0.3.tgz#cb94faeb61c8696451db36534e1422f94f0aee88"
 
 bytes@3.0.0:
   version "3.0.0"
@@ -1573,13 +1552,6 @@ callsites@^0.2.0:
 callsites@^2.0.0:
   version "2.0.0"
   resolved "https://npm.heyday.net.nz/callsites/-/callsites-2.0.0.tgz#06eb84f00eea413da86affefacbffb36093b3c50"
-
-camel-case@^3.0.0:
-  version "3.0.0"
-  resolved "https://npm.heyday.net.nz/camel-case/-/camel-case-3.0.0.tgz#ca3c3688a4e9cf3a4cda777dc4dcbc713249cf73"
-  dependencies:
-    no-case "^2.2.0"
-    upper-case "^1.1.1"
 
 camelcase-keys@^2.0.0:
   version "2.1.0"
@@ -1617,22 +1589,9 @@ caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
   version "1.0.30000778"
   resolved "https://npm.heyday.net.nz/caniuse-db/-/caniuse-db-1.0.30000778.tgz#167c60e9542a2aa60537c446fb3881d853a3072a"
 
-capture-stack-trace@^1.0.0:
-  version "1.0.0"
-  resolved "https://npm.heyday.net.nz/capture-stack-trace/-/capture-stack-trace-1.0.0.tgz#4a6fa07399c26bba47f0b2496b4d0fb408c5550d"
-
 caseless@~0.12.0:
   version "0.12.0"
   resolved "https://npm.heyday.net.nz/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
-
-caw@^2.0.0:
-  version "2.0.1"
-  resolved "https://npm.heyday.net.nz/caw/-/caw-2.0.1.tgz#6c3ca071fc194720883c2dc5da9b074bfc7e9e95"
-  dependencies:
-    get-proxy "^2.0.0"
-    isurl "^1.0.0-alpha5"
-    tunnel-agent "^0.6.0"
-    url-to-options "^1.0.1"
 
 center-align@^0.1.1:
   version "0.1.3"
@@ -1666,29 +1625,6 @@ chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0:
     ansi-styles "^3.1.0"
     escape-string-regexp "^1.0.5"
     supports-color "^4.0.0"
-
-change-case@3.0.x:
-  version "3.0.1"
-  resolved "https://npm.heyday.net.nz/change-case/-/change-case-3.0.1.tgz#ee5f5ad0415ad1ad9e8072cf49cd4cfa7660a554"
-  dependencies:
-    camel-case "^3.0.0"
-    constant-case "^2.0.0"
-    dot-case "^2.1.0"
-    header-case "^1.0.0"
-    is-lower-case "^1.1.0"
-    is-upper-case "^1.1.0"
-    lower-case "^1.1.1"
-    lower-case-first "^1.0.0"
-    no-case "^2.2.0"
-    param-case "^2.1.0"
-    pascal-case "^2.0.0"
-    path-case "^2.1.0"
-    sentence-case "^2.1.0"
-    snake-case "^2.1.0"
-    swap-case "^1.1.0"
-    title-case "^2.1.0"
-    upper-case "^1.1.1"
-    upper-case-first "^1.1.0"
 
 chardet@^0.4.0:
   version "0.4.2"
@@ -1738,13 +1674,6 @@ classnames@^2.2.5:
   version "2.2.5"
   resolved "https://npm.heyday.net.nz/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
 
-clean-css@3.4.x:
-  version "3.4.28"
-  resolved "https://npm.heyday.net.nz/clean-css/-/clean-css-3.4.28.tgz#bf1945e82fc808f55695e6ddeaec01400efd03ff"
-  dependencies:
-    commander "2.8.x"
-    source-map "0.4.x"
-
 clean-webpack-plugin@^0.1.17:
   version "0.1.17"
   resolved "https://npm.heyday.net.nz/clean-webpack-plugin/-/clean-webpack-plugin-0.1.17.tgz#71c57242e6d47204d46f809413176e7bed28ec49"
@@ -1766,10 +1695,6 @@ cli-cursor@^2.1.0:
 cli-spinners@^0.1.2:
   version "0.1.2"
   resolved "https://npm.heyday.net.nz/cli-spinners/-/cli-spinners-0.1.2.tgz#bb764d88e185fb9e1e6a2a1f19772318f605e31c"
-
-cli-spinners@^1.0.0:
-  version "1.1.0"
-  resolved "https://npm.heyday.net.nz/cli-spinners/-/cli-spinners-1.1.0.tgz#f1847b168844d917a671eb9d147e3df497c90d06"
 
 cli-truncate@^0.2.1:
   version "0.2.1"
@@ -1806,28 +1731,6 @@ clone@^2.1.1:
   version "2.1.1"
   resolved "https://npm.heyday.net.nz/clone/-/clone-2.1.1.tgz#d217d1e961118e3ac9a4b8bba3285553bf647cdb"
 
-co-from-stream@~0.0.0:
-  version "0.0.0"
-  resolved "https://npm.heyday.net.nz/co-from-stream/-/co-from-stream-0.0.0.tgz#1a5cd8ced77263946094fa39f2499a63297bcaf9"
-  dependencies:
-    co-read "0.0.1"
-
-co-fs-extra@^1.2.1:
-  version "1.2.1"
-  resolved "https://npm.heyday.net.nz/co-fs-extra/-/co-fs-extra-1.2.1.tgz#3b6ad77cf2614530f677b1cf62664f5ba756b722"
-  dependencies:
-    co-from-stream "~0.0.0"
-    fs-extra "~0.26.5"
-    thunkify-wrap "~1.0.4"
-
-co-read@0.0.1:
-  version "0.0.1"
-  resolved "https://npm.heyday.net.nz/co-read/-/co-read-0.0.1.tgz#f81b3eb8a86675fec51e3d883a7f564e873c9389"
-
-co@3.1.0, co@~3.1.0:
-  version "3.1.0"
-  resolved "https://npm.heyday.net.nz/co/-/co-3.1.0.tgz#4ea54ea5a08938153185e15210c68d9092bc1b78"
-
 co@^4.6.0:
   version "4.6.0"
   resolved "https://npm.heyday.net.nz/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -1841,10 +1744,6 @@ coa@~1.0.1:
 code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://npm.heyday.net.nz/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
-
-coffee-script@1.12.7, coffee-script@^1.12.4:
-  version "1.12.7"
-  resolved "https://npm.heyday.net.nz/coffee-script/-/coffee-script-1.12.7.tgz#c05dae0cb79591d05b3070a8433a98c9a89ccc53"
 
 color-convert@^1.3.0, color-convert@^1.9.0:
   version "1.9.1"
@@ -1892,19 +1791,7 @@ commander@2.11.0:
   version "2.11.0"
   resolved "https://npm.heyday.net.nz/commander/-/commander-2.11.0.tgz#157152fd1e7a6c8d98a5b715cf376df928004563"
 
-commander@2.8.x, commander@~2.8.1:
-  version "2.8.1"
-  resolved "https://npm.heyday.net.nz/commander/-/commander-2.8.1.tgz#06be367febfda0c330aa1e2a072d3dc9762425d4"
-  dependencies:
-    graceful-readlink ">= 1.0.0"
-
-commander@2.9.x:
-  version "2.9.0"
-  resolved "https://npm.heyday.net.nz/commander/-/commander-2.9.0.tgz#9c99094176e12240cb22d6c5146098400fe0f7d4"
-  dependencies:
-    graceful-readlink ">= 1.0.0"
-
-commander@^2.6.0, commander@^2.9.0, commander@~2.12.1:
+commander@^2.9.0, commander@~2.12.1:
   version "2.12.2"
   resolved "https://npm.heyday.net.nz/commander/-/commander-2.12.2.tgz#0f5946c427ed9ec0d91a46bb9def53e54650e555"
 
@@ -1968,13 +1855,6 @@ concat-stream@1.6.0, concat-stream@^1.6.0:
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
 
-config-chain@^1.1.11:
-  version "1.1.11"
-  resolved "https://npm.heyday.net.nz/config-chain/-/config-chain-1.1.11.tgz#aba09747dfbe4c3e70e766a6e41586e1859fc6f2"
-  dependencies:
-    ini "^1.3.4"
-    proto-list "~1.2.1"
-
 connect-history-api-fallback@^1.3.0:
   version "1.5.0"
   resolved "https://npm.heyday.net.nz/connect-history-api-fallback/-/connect-history-api-fallback-1.5.0.tgz#b06873934bc5e344fef611a196a6faae0aee015a"
@@ -1988,19 +1868,6 @@ console-browserify@^1.1.0:
 console-control-strings@^1.0.0, console-control-strings@~1.1.0:
   version "1.1.0"
   resolved "https://npm.heyday.net.nz/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
-
-consolidate@^0.14.0:
-  version "0.14.5"
-  resolved "https://npm.heyday.net.nz/consolidate/-/consolidate-0.14.5.tgz#5a25047bc76f73072667c8cb52c989888f494c63"
-  dependencies:
-    bluebird "^3.1.1"
-
-constant-case@^2.0.0:
-  version "2.0.0"
-  resolved "https://npm.heyday.net.nz/constant-case/-/constant-case-2.0.0.tgz#4175764d389d3fa9c8ecd29186ed6005243b6a46"
-  dependencies:
-    snake-case "^2.1.0"
-    upper-case "^1.1.1"
 
 constants-browserify@^1.0.0:
   version "1.0.0"
@@ -2058,22 +1925,12 @@ cosmiconfig@^2.1.0, cosmiconfig@^2.1.1:
     parse-json "^2.2.0"
     require-from-string "^1.1.0"
 
-countup.js@^1.8.1:
-  version "1.9.3"
-  resolved "https://npm.heyday.net.nz/countup.js/-/countup.js-1.9.3.tgz#ce3e50cd7160441e478f07da31895edcc0f1c9dd"
-
 create-ecdh@^4.0.0:
   version "4.0.0"
   resolved "https://npm.heyday.net.nz/create-ecdh/-/create-ecdh-4.0.0.tgz#888c723596cdf7612f6498233eebd7a35301737d"
   dependencies:
     bn.js "^4.1.0"
     elliptic "^6.0.0"
-
-create-error-class@^3.0.0:
-  version "3.0.2"
-  resolved "https://npm.heyday.net.nz/create-error-class/-/create-error-class-3.0.2.tgz#06be7abef947a3f14a30fd610671d401bca8b7b6"
-  dependencies:
-    capture-stack-trace "^1.0.0"
 
 create-hash@^1.1.0, create-hash@^1.1.2:
   version "1.1.3"
@@ -2288,10 +2145,6 @@ date-now@^0.1.4:
   version "0.1.4"
   resolved "https://npm.heyday.net.nz/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
 
-de-indent@^1.0.2:
-  version "1.0.2"
-  resolved "https://npm.heyday.net.nz/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
-
 debug@2.2.0:
   version "2.2.0"
   resolved "https://npm.heyday.net.nz/debug/-/debug-2.2.0.tgz#f87057e995b1a1f6ae6a4960664137bc56f039da"
@@ -2325,54 +2178,6 @@ debug@^3.0.1, debug@^3.1.0:
 decamelize@^1.0.0, decamelize@^1.1.1, decamelize@^1.1.2:
   version "1.2.0"
   resolved "https://npm.heyday.net.nz/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
-
-decompress-tar@^4.0.0, decompress-tar@^4.1.0, decompress-tar@^4.1.1:
-  version "4.1.1"
-  resolved "https://npm.heyday.net.nz/decompress-tar/-/decompress-tar-4.1.1.tgz#718cbd3fcb16209716e70a26b84e7ba4592e5af1"
-  dependencies:
-    file-type "^5.2.0"
-    is-stream "^1.1.0"
-    tar-stream "^1.5.2"
-
-decompress-tarbz2@^4.0.0:
-  version "4.1.1"
-  resolved "https://npm.heyday.net.nz/decompress-tarbz2/-/decompress-tarbz2-4.1.1.tgz#3082a5b880ea4043816349f378b56c516be1a39b"
-  dependencies:
-    decompress-tar "^4.1.0"
-    file-type "^6.1.0"
-    is-stream "^1.1.0"
-    seek-bzip "^1.0.5"
-    unbzip2-stream "^1.0.9"
-
-decompress-targz@^4.0.0:
-  version "4.1.1"
-  resolved "https://npm.heyday.net.nz/decompress-targz/-/decompress-targz-4.1.1.tgz#c09bc35c4d11f3de09f2d2da53e9de23e7ce1eee"
-  dependencies:
-    decompress-tar "^4.1.1"
-    file-type "^5.2.0"
-    is-stream "^1.1.0"
-
-decompress-unzip@^4.0.1:
-  version "4.0.1"
-  resolved "https://npm.heyday.net.nz/decompress-unzip/-/decompress-unzip-4.0.1.tgz#deaaccdfd14aeaf85578f733ae8210f9b4848f69"
-  dependencies:
-    file-type "^3.8.0"
-    get-stream "^2.2.0"
-    pify "^2.3.0"
-    yauzl "^2.4.2"
-
-decompress@^4.0.0:
-  version "4.2.0"
-  resolved "https://npm.heyday.net.nz/decompress/-/decompress-4.2.0.tgz#7aedd85427e5a92dacfe55674a7c505e96d01f9d"
-  dependencies:
-    decompress-tar "^4.0.0"
-    decompress-tarbz2 "^4.0.0"
-    decompress-targz "^4.0.0"
-    decompress-unzip "^4.0.1"
-    graceful-fs "^4.1.10"
-    make-dir "^1.0.0"
-    pify "^2.3.0"
-    strip-dirs "^2.0.0"
 
 deep-equal@^1.0.1:
   version "1.0.1"
@@ -2519,13 +2324,6 @@ dom-select@^1.1.1:
   version "1.1.1"
   resolved "https://npm.heyday.net.nz/dom-select/-/dom-select-1.1.1.tgz#2627150dd6d2f6a4d7a5c13d1581d2e51b70eefc"
 
-dom-serializer@0:
-  version "0.1.0"
-  resolved "https://npm.heyday.net.nz/dom-serializer/-/dom-serializer-0.1.0.tgz#073c697546ce0780ce23be4a28e293e40bc30c82"
-  dependencies:
-    domelementtype "~1.1.1"
-    entities "~1.1.1"
-
 dom-walk@^0.1.0:
   version "0.1.1"
   resolved "https://npm.heyday.net.nz/dom-walk/-/dom-walk-0.1.1.tgz#672226dc74c8f799ad35307df936aba11acd6018"
@@ -2533,57 +2331,6 @@ dom-walk@^0.1.0:
 domain-browser@^1.1.1:
   version "1.1.7"
   resolved "https://npm.heyday.net.nz/domain-browser/-/domain-browser-1.1.7.tgz#867aa4b093faa05f1de08c06f4d7b21fdf8698bc"
-
-domelementtype@1, domelementtype@^1.3.0:
-  version "1.3.0"
-  resolved "https://npm.heyday.net.nz/domelementtype/-/domelementtype-1.3.0.tgz#b17aed82e8ab59e52dd9c19b1756e0fc187204c2"
-
-domelementtype@~1.1.1:
-  version "1.1.3"
-  resolved "https://npm.heyday.net.nz/domelementtype/-/domelementtype-1.1.3.tgz#bd28773e2642881aec51544924299c5cd822185b"
-
-domhandler@^2.3.0:
-  version "2.4.1"
-  resolved "https://npm.heyday.net.nz/domhandler/-/domhandler-2.4.1.tgz#892e47000a99be55bbf3774ffea0561d8879c259"
-  dependencies:
-    domelementtype "1"
-
-domutils@^1.5.1:
-  version "1.6.2"
-  resolved "https://npm.heyday.net.nz/domutils/-/domutils-1.6.2.tgz#1958cc0b4c9426e9ed367fb1c8e854891b0fa3ff"
-  dependencies:
-    dom-serializer "0"
-    domelementtype "1"
-
-dot-case@^2.1.0:
-  version "2.1.1"
-  resolved "https://npm.heyday.net.nz/dot-case/-/dot-case-2.1.1.tgz#34dcf37f50a8e93c2b3bca8bb7fb9155c7da3bee"
-  dependencies:
-    no-case "^2.2.0"
-
-download-git-repo@^1.0.1:
-  version "1.0.1"
-  resolved "https://npm.heyday.net.nz/download-git-repo/-/download-git-repo-1.0.1.tgz#d62b07abe829431e9fec90d5543597664228f305"
-  dependencies:
-    download "^5.0.3"
-    git-clone "^0.1.0"
-    rimraf "^2.6.1"
-
-download@^5.0.3:
-  version "5.0.3"
-  resolved "https://npm.heyday.net.nz/download/-/download-5.0.3.tgz#63537f977f99266a30eb8a2a2fbd1f20b8000f7a"
-  dependencies:
-    caw "^2.0.0"
-    decompress "^4.0.0"
-    filenamify "^2.0.0"
-    get-stream "^3.0.0"
-    got "^6.3.0"
-    mkdirp "^0.5.1"
-    pify "^2.3.0"
-
-duplexer3@^0.1.4:
-  version "0.1.4"
-  resolved "https://npm.heyday.net.nz/duplexer3/-/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
 
 duplexer@^0.1.1:
   version "0.1.1"
@@ -2627,10 +2374,6 @@ emojis-list@^2.0.0:
   version "2.1.0"
   resolved "https://npm.heyday.net.nz/emojis-list/-/emojis-list-2.1.0.tgz#4daa4d9db00f9819880c79fa457ae5b09a1fd389"
 
-enable@1:
-  version "1.3.2"
-  resolved "https://npm.heyday.net.nz/enable/-/enable-1.3.2.tgz#9eba6837d16d0982b59f87d889bf754443d52931"
-
 encodeurl@~1.0.1:
   version "1.0.1"
   resolved "https://npm.heyday.net.nz/encodeurl/-/encodeurl-1.0.1.tgz#79e3d58655346909fe6f0f45a5de68103b294d20"
@@ -2640,12 +2383,6 @@ encoding@^0.1.11:
   resolved "https://npm.heyday.net.nz/encoding/-/encoding-0.1.12.tgz#538b66f3ee62cd1ab51ec323829d1f9480c74beb"
   dependencies:
     iconv-lite "~0.4.13"
-
-end-of-stream@^1.0.0:
-  version "1.4.0"
-  resolved "https://npm.heyday.net.nz/end-of-stream/-/end-of-stream-1.4.0.tgz#7a90d833efda6cfa6eac0f4949dbb0fad3a63206"
-  dependencies:
-    once "^1.4.0"
 
 engine.io-client@~1.8.4:
   version "1.8.4"
@@ -2694,10 +2431,6 @@ enhanced-resolve@^3.4.0:
     memory-fs "^0.4.0"
     object-assign "^4.0.1"
     tapable "^0.2.7"
-
-entities@^1.1.1, entities@~1.1.1:
-  version "1.1.1"
-  resolved "https://npm.heyday.net.nz/entities/-/entities-1.1.1.tgz#6e5c2d0a5621b5dadaecef80b90edfb5cd7772f0"
 
 errno@^0.1.1, errno@^0.1.3, errno@^0.1.4:
   version "0.1.4"
@@ -2776,13 +2509,6 @@ es6-symbol@3.1.1, es6-symbol@^3.1.1, es6-symbol@~3.1.1:
     d "1"
     es5-ext "~0.10.14"
 
-es6-templates@^0.2.2:
-  version "0.2.3"
-  resolved "https://npm.heyday.net.nz/es6-templates/-/es6-templates-0.2.3.tgz#5cb9ac9fb1ded6eb1239342b81d792bbb4078ee4"
-  dependencies:
-    recast "~0.11.12"
-    through "~2.3.6"
-
 es6-weak-map@^2.0.1:
   version "2.0.2"
   resolved "https://npm.heyday.net.nz/es6-weak-map/-/es6-weak-map-2.0.2.tgz#5e3ab32251ffd1538a1f8e5ffa1357772f92d96f"
@@ -2858,19 +2584,6 @@ eslint-module-utils@^2.1.1:
     debug "^2.6.8"
     pkg-dir "^1.0.0"
 
-eslint-plugin-html@^2.0.0:
-  version "2.0.3"
-  resolved "https://npm.heyday.net.nz/eslint-plugin-html/-/eslint-plugin-html-2.0.3.tgz#7c89883ab0c85fa5d28b666a14a4e906aa90b897"
-  dependencies:
-    htmlparser2 "^3.8.2"
-
-eslint-plugin-html@^3.0.0:
-  version "3.2.2"
-  resolved "https://npm.heyday.net.nz/eslint-plugin-html/-/eslint-plugin-html-3.2.2.tgz#ef7093621d3a93de3206fd1f92f347ea9a1a4dfa"
-  dependencies:
-    htmlparser2 "^3.8.2"
-    semver "^5.4.1"
-
 eslint-plugin-import@^2.8.0:
   version "2.8.0"
   resolved "https://npm.heyday.net.nz/eslint-plugin-import/-/eslint-plugin-import-2.8.0.tgz#fa1b6ef31fcb3c501c09859c1b86f1fc5b986894"
@@ -2899,7 +2612,7 @@ eslint-plugin-promise@^3.6.0:
   version "3.6.0"
   resolved "https://npm.heyday.net.nz/eslint-plugin-promise/-/eslint-plugin-promise-3.6.0.tgz#54b7658c8f454813dc2a870aff8152ec4969ba75"
 
-eslint-plugin-react@^7.0.0, eslint-plugin-react@^7.5.1:
+eslint-plugin-react@^7.5.1:
   version "7.5.1"
   resolved "https://npm.heyday.net.nz/eslint-plugin-react/-/eslint-plugin-react-7.5.1.tgz#52e56e8d80c810de158859ef07b880d2f56ee30b"
   dependencies:
@@ -2911,19 +2624,6 @@ eslint-plugin-react@^7.0.0, eslint-plugin-react@^7.5.1:
 eslint-plugin-standard@^3.0.1:
   version "3.0.1"
   resolved "https://npm.heyday.net.nz/eslint-plugin-standard/-/eslint-plugin-standard-3.0.1.tgz#34d0c915b45edc6f010393c7eef3823b08565cf2"
-
-eslint-plugin-vue-libs@^1.2.1:
-  version "1.2.1"
-  resolved "https://npm.heyday.net.nz/eslint-plugin-vue-libs/-/eslint-plugin-vue-libs-1.2.1.tgz#d50f3ebef50c4076dae84e8cff3a3c350f6bac44"
-  dependencies:
-    eslint-plugin-html "^2.0.0"
-
-eslint-plugin-vue@^2.1.0:
-  version "2.1.0"
-  resolved "https://npm.heyday.net.nz/eslint-plugin-vue/-/eslint-plugin-vue-2.1.0.tgz#50ed0b7e9a2389d90e689743a3cc26b502441b69"
-  dependencies:
-    eslint-plugin-html "^3.0.0"
-    eslint-plugin-react "^7.0.0"
 
 eslint-scope@^3.7.1:
   version "3.7.1"
@@ -2985,7 +2685,7 @@ esprima@^2.6.0:
   version "2.7.3"
   resolved "https://npm.heyday.net.nz/esprima/-/esprima-2.7.3.tgz#96e3b70d5779f6ad49cd032673d1c312767ba581"
 
-esprima@^3.1.3, esprima@~3.1.0:
+esprima@^3.1.3:
   version "3.1.3"
   resolved "https://npm.heyday.net.nz/esprima/-/esprima-3.1.3.tgz#fdca51cee6133895e3c88d535ce49dbff62a4633"
 
@@ -3126,12 +2826,6 @@ express@^4.15.2, express@^4.16.2:
     utils-merge "1.0.1"
     vary "~1.1.2"
 
-extend-shallow@^2.0.1:
-  version "2.0.1"
-  resolved "https://npm.heyday.net.nz/extend-shallow/-/extend-shallow-2.0.1.tgz#51af7d614ad9a9f610ea1bafbb989d6b1c56890f"
-  dependencies:
-    is-extendable "^0.1.0"
-
 extend@~3.0.0, extend@~3.0.1:
   version "3.0.1"
   resolved "https://npm.heyday.net.nz/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
@@ -3194,7 +2888,7 @@ fast-levenshtein@~2.0.4:
   version "2.0.6"
   resolved "https://npm.heyday.net.nz/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
 
-fastparse@^1.0.0, fastparse@^1.1.1:
+fastparse@^1.1.1:
   version "1.1.1"
   resolved "https://npm.heyday.net.nz/fastparse/-/fastparse-1.1.1.tgz#d1e2643b38a94d7583b479060e6c4affc94071f8"
 
@@ -3261,33 +2955,9 @@ file-loader@^1.1.5:
     loader-utils "^1.0.2"
     schema-utils "^0.3.0"
 
-file-type@^3.8.0:
-  version "3.9.0"
-  resolved "https://npm.heyday.net.nz/file-type/-/file-type-3.9.0.tgz#257a078384d1db8087bc449d107d52a52672b9e9"
-
-file-type@^5.2.0:
-  version "5.2.0"
-  resolved "https://npm.heyday.net.nz/file-type/-/file-type-5.2.0.tgz#2ddbea7c73ffe36368dfae49dc338c058c2b8ad6"
-
-file-type@^6.1.0:
-  version "6.2.0"
-  resolved "https://npm.heyday.net.nz/file-type/-/file-type-6.2.0.tgz#e50cd75d356ffed4e306dc4f5bcf52a79903a919"
-
 filename-regex@^2.0.0:
   version "2.0.1"
   resolved "https://npm.heyday.net.nz/filename-regex/-/filename-regex-2.0.1.tgz#c1c4b9bee3e09725ddb106b75c1e301fe2f18b26"
-
-filename-reserved-regex@^2.0.0:
-  version "2.0.0"
-  resolved "https://npm.heyday.net.nz/filename-reserved-regex/-/filename-reserved-regex-2.0.0.tgz#abf73dfab735d045440abfea2d91f389ebbfa229"
-
-filenamify@^2.0.0:
-  version "2.0.0"
-  resolved "https://npm.heyday.net.nz/filenamify/-/filenamify-2.0.0.tgz#bd162262c0b6e94bfbcdcf19a3bbb3764f785695"
-  dependencies:
-    filename-reserved-regex "^2.0.0"
-    strip-outer "^1.0.0"
-    trim-repeated "^1.0.0"
 
 fileset@^2.0.2:
   version "2.0.3"
@@ -3321,13 +2991,6 @@ finalhandler@1.1.0:
     parseurl "~1.3.2"
     statuses "~1.3.1"
     unpipe "~1.0.0"
-
-find-babel-config@1.1.0:
-  version "1.1.0"
-  resolved "https://npm.heyday.net.nz/find-babel-config/-/find-babel-config-1.1.0.tgz#acc01043a6749fec34429be6b64f542ebb5d6355"
-  dependencies:
-    json5 "^0.5.1"
-    path-exists "^3.0.0"
 
 find-cache-dir@^0.1.1:
   version "0.1.1"
@@ -3425,16 +3088,6 @@ fs-extra@4.0.1:
     jsonfile "^3.0.0"
     universalify "^0.1.0"
 
-fs-extra@~0.26.5:
-  version "0.26.7"
-  resolved "https://npm.heyday.net.nz/fs-extra/-/fs-extra-0.26.7.tgz#9ae1fdd94897798edab76d0918cf42d0c3184fa9"
-  dependencies:
-    graceful-fs "^4.1.2"
-    jsonfile "^2.1.0"
-    klaw "^1.0.0"
-    path-is-absolute "^1.0.0"
-    rimraf "^2.2.8"
-
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://npm.heyday.net.nz/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
@@ -3488,22 +3141,9 @@ get-caller-file@^1.0.1:
   version "1.0.2"
   resolved "https://npm.heyday.net.nz/get-caller-file/-/get-caller-file-1.0.2.tgz#f702e63127e7e231c160a80c1554acb70d5047e5"
 
-get-proxy@^2.0.0:
-  version "2.1.0"
-  resolved "https://npm.heyday.net.nz/get-proxy/-/get-proxy-2.1.0.tgz#349f2b4d91d44c4d4d4e9cba2ad90143fac5ef93"
-  dependencies:
-    npm-conf "^1.1.0"
-
 get-stdin@^4.0.1:
   version "4.0.1"
   resolved "https://npm.heyday.net.nz/get-stdin/-/get-stdin-4.0.1.tgz#b968c6b0a04384324902e8bf1a5df32579a450fe"
-
-get-stream@^2.2.0:
-  version "2.3.1"
-  resolved "https://npm.heyday.net.nz/get-stream/-/get-stream-2.3.1.tgz#5f38f93f346009666ee0150a054167f91bdd95de"
-  dependencies:
-    object-assign "^4.0.1"
-    pinkie-promise "^2.0.0"
 
 get-stream@^3.0.0:
   version "3.0.0"
@@ -3520,10 +3160,6 @@ getpass@^0.1.1:
   resolved "https://npm.heyday.net.nz/getpass/-/getpass-0.1.7.tgz#5eff8e3e684d569ae4cb2b1282604e8ba62149fa"
   dependencies:
     assert-plus "^1.0.0"
-
-git-clone@^0.1.0:
-  version "0.1.0"
-  resolved "https://npm.heyday.net.nz/git-clone/-/git-clone-0.1.0.tgz#0d76163778093aef7f1c30238f2a9ef3f07a2eb9"
 
 glob-base@^0.3.0:
   version "0.3.0"
@@ -3595,39 +3231,9 @@ globby@^6.1.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
-got@^6.3.0:
-  version "6.7.1"
-  resolved "https://npm.heyday.net.nz/got/-/got-6.7.1.tgz#240cd05785a9a18e561dc1b44b41c763ef1e8db0"
-  dependencies:
-    create-error-class "^3.0.0"
-    duplexer3 "^0.1.4"
-    get-stream "^3.0.0"
-    is-redirect "^1.0.0"
-    is-retry-allowed "^1.0.0"
-    is-stream "^1.0.0"
-    lowercase-keys "^1.0.0"
-    safe-buffer "^5.0.1"
-    timed-out "^4.0.0"
-    unzip-response "^2.0.1"
-    url-parse-lax "^1.0.0"
-
-graceful-fs@^4.1.10, graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9:
+graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.11"
   resolved "https://npm.heyday.net.nz/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
-
-"graceful-readlink@>= 1.0.0":
-  version "1.0.1"
-  resolved "https://npm.heyday.net.nz/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
-
-gray-matter@^2.0.0:
-  version "2.1.1"
-  resolved "https://npm.heyday.net.nz/gray-matter/-/gray-matter-2.1.1.tgz#3042d9adec2a1ded6a7707a9ed2380f8a17a430e"
-  dependencies:
-    ansi-red "^0.1.1"
-    coffee-script "^1.12.4"
-    extend-shallow "^2.0.1"
-    js-yaml "^3.8.1"
-    toml "^2.3.2"
 
 growly@^1.3.0:
   version "1.3.0"
@@ -3643,7 +3249,7 @@ handle-thing@^1.2.5:
   version "1.2.5"
   resolved "https://npm.heyday.net.nz/handle-thing/-/handle-thing-1.2.5.tgz#fd7aad726bf1a5fd16dfc29b2f7a6601d27139c4"
 
-handlebars@^4.0.3, handlebars@^4.0.5, handlebars@^4.0.6:
+handlebars@^4.0.3, handlebars@^4.0.6:
   version "4.0.11"
   resolved "https://npm.heyday.net.nz/handlebars/-/handlebars-4.0.11.tgz#630a35dfe0294bc281edae6ffc5d329fc7982dcc"
   dependencies:
@@ -3699,20 +3305,6 @@ has-flag@^2.0.0:
   version "2.0.0"
   resolved "https://npm.heyday.net.nz/has-flag/-/has-flag-2.0.0.tgz#e8207af1cc7b30d446cc70b734b5e8be18f88d51"
 
-has-generators@^1.0.1:
-  version "1.0.1"
-  resolved "https://npm.heyday.net.nz/has-generators/-/has-generators-1.0.1.tgz#a6a2e55486011940482e13e2c93791c449acf449"
-
-has-symbol-support-x@^1.4.1:
-  version "1.4.1"
-  resolved "https://npm.heyday.net.nz/has-symbol-support-x/-/has-symbol-support-x-1.4.1.tgz#66ec2e377e0c7d7ccedb07a3a84d77510ff1bc4c"
-
-has-to-string-tag-x@^1.2.0:
-  version "1.4.1"
-  resolved "https://npm.heyday.net.nz/has-to-string-tag-x/-/has-to-string-tag-x-1.4.1.tgz#a045ab383d7b4b2012a00148ab0aa5f290044d4d"
-  dependencies:
-    has-symbol-support-x "^1.4.1"
-
 has-unicode@^2.0.0:
   version "2.0.1"
   resolved "https://npm.heyday.net.nz/has-unicode/-/has-unicode-2.0.1.tgz#e0e6fe6a28cf51138855e086d1691e771de2a8b9"
@@ -3735,10 +3327,6 @@ hash-base@^3.0.0:
   dependencies:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
-
-hash-sum@^1.0.2:
-  version "1.0.2"
-  resolved "https://npm.heyday.net.nz/hash-sum/-/hash-sum-1.0.2.tgz#33b40777754c6432573c120cc3808bbd10d47f04"
 
 hash.js@^1.0.0, hash.js@^1.0.3:
   version "1.1.3"
@@ -3764,17 +3352,6 @@ hawk@~6.0.2:
     cryptiles "3.x.x"
     hoek "4.x.x"
     sntp "2.x.x"
-
-he@1.1.x, he@^1.1.0:
-  version "1.1.1"
-  resolved "https://npm.heyday.net.nz/he/-/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
-
-header-case@^1.0.0:
-  version "1.0.1"
-  resolved "https://npm.heyday.net.nz/header-case/-/header-case-1.0.1.tgz#9535973197c144b09613cd65d317ef19963bd02d"
-  dependencies:
-    no-case "^2.2.0"
-    upper-case "^1.1.3"
 
 hex-to-hsl@^1.0.2:
   version "1.0.2"
@@ -3846,29 +3423,6 @@ html-encoding-sniffer@^1.0.1:
 html-entities@^1.2.0:
   version "1.2.1"
   resolved "https://npm.heyday.net.nz/html-entities/-/html-entities-1.2.1.tgz#0df29351f0721163515dfb9e5543e5f6eed5162f"
-
-html-minifier@^2.1.5:
-  version "2.1.7"
-  resolved "https://npm.heyday.net.nz/html-minifier/-/html-minifier-2.1.7.tgz#9051d6fcbbcf214ed307e1ad74f432bb9ad655cc"
-  dependencies:
-    change-case "3.0.x"
-    clean-css "3.4.x"
-    commander "2.9.x"
-    he "1.1.x"
-    ncname "1.0.x"
-    relateurl "0.2.x"
-    uglify-js "2.6.x"
-
-htmlparser2@^3.8.2:
-  version "3.9.2"
-  resolved "https://npm.heyday.net.nz/htmlparser2/-/htmlparser2-3.9.2.tgz#1bdf87acca0f3f9e53fa4fcceb0f4b4cbb00b338"
-  dependencies:
-    domelementtype "^1.3.0"
-    domhandler "^2.3.0"
-    domutils "^1.5.1"
-    entities "^1.1.1"
-    inherits "^2.0.1"
-    readable-stream "^2.0.2"
 
 http-deceiver@^1.2.7:
   version "1.2.7"
@@ -3997,7 +3551,7 @@ ini@^1.3.4, ini@~1.3.0:
   version "1.3.5"
   resolved "https://npm.heyday.net.nz/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
 
-inquirer@^3.0.6, inquirer@^3.3.0:
+inquirer@^3.0.6:
   version "3.3.0"
   resolved "https://npm.heyday.net.nz/inquirer/-/inquirer-3.3.0.tgz#9dd2f2ad765dcab1ff0443b491442a20ba227dc9"
   dependencies:
@@ -4120,7 +3674,7 @@ is-equal-shallow@^0.1.3:
   dependencies:
     is-primitive "^2.0.0"
 
-is-extendable@^0.1.0, is-extendable@^0.1.1:
+is-extendable@^0.1.1:
   version "0.1.1"
   resolved "https://npm.heyday.net.nz/is-extendable/-/is-extendable-0.1.1.tgz#62b110e289a471418e3ec36a617d472e301dfc89"
 
@@ -4167,16 +3721,6 @@ is-installed-globally@0.1.0:
     global-dirs "^0.1.0"
     is-path-inside "^1.0.0"
 
-is-lower-case@^1.1.0:
-  version "1.1.3"
-  resolved "https://npm.heyday.net.nz/is-lower-case/-/is-lower-case-1.1.3.tgz#7e147be4768dc466db3bfb21cc60b31e6ad69393"
-  dependencies:
-    lower-case "^1.1.0"
-
-is-natural-number@^4.0.1:
-  version "4.0.1"
-  resolved "https://npm.heyday.net.nz/is-natural-number/-/is-natural-number-4.0.1.tgz#ab9d76e1db4ced51e35de0c72ebecf09f734cde8"
-
 is-number@^2.1.0:
   version "2.1.0"
   resolved "https://npm.heyday.net.nz/is-number/-/is-number-2.1.0.tgz#01fcbbb393463a548f2f466cce16dece49db908f"
@@ -4188,10 +3732,6 @@ is-number@^3.0.0:
   resolved "https://npm.heyday.net.nz/is-number/-/is-number-3.0.0.tgz#24fd6201a4782cf50561c810276afc7d12d71195"
   dependencies:
     kind-of "^3.0.2"
-
-is-object@^1.0.1:
-  version "1.0.1"
-  resolved "https://npm.heyday.net.nz/is-object/-/is-object-1.0.1.tgz#8952688c5ec2ffd6b03ecc85e769e02903083470"
 
 is-path-cwd@^1.0.0:
   version "1.0.0"
@@ -4225,10 +3765,6 @@ is-promise@^2.1.0:
   version "2.1.0"
   resolved "https://npm.heyday.net.nz/is-promise/-/is-promise-2.1.0.tgz#79a2a9ece7f096e80f36d2b2f3bc16c1ff4bf3fa"
 
-is-redirect@^1.0.0:
-  version "1.0.0"
-  resolved "https://npm.heyday.net.nz/is-redirect/-/is-redirect-1.0.0.tgz#1d03dded53bd8db0f30c26e4f95d36fc7c87dc24"
-
 is-regex@^1.0.4:
   version "1.0.4"
   resolved "https://npm.heyday.net.nz/is-regex/-/is-regex-1.0.4.tgz#5517489b547091b0930e095654ced25ee97e9491"
@@ -4241,11 +3777,7 @@ is-resolvable@^1.0.0:
   dependencies:
     tryit "^1.0.1"
 
-is-retry-allowed@^1.0.0:
-  version "1.1.0"
-  resolved "https://npm.heyday.net.nz/is-retry-allowed/-/is-retry-allowed-1.1.0.tgz#11a060568b67339444033d0125a61a20d564fb34"
-
-is-stream@^1.0.0, is-stream@^1.0.1, is-stream@^1.1.0:
+is-stream@^1.0.1, is-stream@^1.1.0:
   version "1.1.0"
   resolved "https://npm.heyday.net.nz/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
 
@@ -4263,23 +3795,13 @@ is-typedarray@~1.0.0:
   version "1.0.0"
   resolved "https://npm.heyday.net.nz/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
 
-is-upper-case@^1.1.0:
-  version "1.1.2"
-  resolved "https://npm.heyday.net.nz/is-upper-case/-/is-upper-case-1.1.2.tgz#8d0b1fa7e7933a1e58483600ec7d9661cbaf756f"
-  dependencies:
-    upper-case "^1.1.0"
-
-is-utf8@^0.2.0, is-utf8@~0.2.0:
+is-utf8@^0.2.0:
   version "0.2.1"
   resolved "https://npm.heyday.net.nz/is-utf8/-/is-utf8-0.2.1.tgz#4b0da1442104d1b336340e80797e865cf39f7d72"
 
 is-wsl@^1.1.0:
   version "1.1.0"
   resolved "https://npm.heyday.net.nz/is-wsl/-/is-wsl-1.1.0.tgz#1f16e4aa22b04d1336b66188a66af3c600c3a66d"
-
-is@^3.1.0:
-  version "3.2.1"
-  resolved "https://npm.heyday.net.nz/is/-/is-3.2.1.tgz#d0ac2ad55eb7b0bec926a5266f6c662aaa83dca5"
 
 isarray@0.0.1:
   version "0.0.1"
@@ -4372,13 +3894,6 @@ istanbul-reports@^1.1.3:
   resolved "https://npm.heyday.net.nz/istanbul-reports/-/istanbul-reports-1.1.3.tgz#3b9e1e8defb6d18b1d425da8e8b32c5a163f2d10"
   dependencies:
     handlebars "^4.0.3"
-
-isurl@^1.0.0-alpha5:
-  version "1.0.0"
-  resolved "https://npm.heyday.net.nz/isurl/-/isurl-1.0.0.tgz#b27f4f49f3cdaa3ea44a0a5b7f3462e6edc39d67"
-  dependencies:
-    has-to-string-tag-x "^1.2.0"
-    is-object "^1.0.1"
 
 jest-changed-files@^21.2.0:
   version "21.2.0"
@@ -4599,15 +4114,6 @@ jest-validate@^21.2.1:
     leven "^2.1.0"
     pretty-format "^21.2.1"
 
-jest-vue-preprocessor@^1.3.1:
-  version "1.3.1"
-  resolved "https://npm.heyday.net.nz/jest-vue-preprocessor/-/jest-vue-preprocessor-1.3.1.tgz#7161a4f1f66eee34c406476447c8cd709938ad75"
-  dependencies:
-    babel-plugin-transform-runtime "6.23.0"
-    find-babel-config "1.1.0"
-    typescript "2.5.3"
-    vue-property-decorator "6.0.0"
-
 jest@^21.2.1:
   version "21.2.1"
   resolved "https://npm.heyday.net.nz/jest/-/jest-21.2.1.tgz#c964e0b47383768a1438e3ccf3c3d470327604e1"
@@ -4622,7 +4128,7 @@ js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
   resolved "https://npm.heyday.net.nz/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
 
-js-yaml@^3.4.3, js-yaml@^3.7.0, js-yaml@^3.8.1, js-yaml@^3.9.1:
+js-yaml@^3.4.3, js-yaml@^3.7.0, js-yaml@^3.9.1:
   version "3.10.0"
   resolved "https://npm.heyday.net.nz/js-yaml/-/js-yaml-3.10.0.tgz#2e78441646bd4682e963f22b6e92823c309c62dc"
   dependencies:
@@ -4706,12 +4212,6 @@ json5@^0.5.0, json5@^0.5.1:
   version "0.5.1"
   resolved "https://npm.heyday.net.nz/json5/-/json5-0.5.1.tgz#1eade7acc012034ad84e2396767ead9fa5495821"
 
-jsonfile@^2.1.0:
-  version "2.4.0"
-  resolved "https://npm.heyday.net.nz/jsonfile/-/jsonfile-2.4.0.tgz#3736a2b428b87bbda0cc83b53fa3d633a35c2ae8"
-  optionalDependencies:
-    graceful-fs "^4.1.6"
-
 jsonfile@^3.0.0:
   version "3.0.1"
   resolved "https://npm.heyday.net.nz/jsonfile/-/jsonfile-3.0.1.tgz#a5ecc6f65f53f662c4415c7675a0331d0992ec66"
@@ -4762,12 +4262,6 @@ kind-of@^4.0.0:
   resolved "https://npm.heyday.net.nz/kind-of/-/kind-of-4.0.0.tgz#20813df3d712928b207378691a45066fae72dd57"
   dependencies:
     is-buffer "^1.1.5"
-
-klaw@^1.0.0:
-  version "1.3.1"
-  resolved "https://npm.heyday.net.nz/klaw/-/klaw-1.3.1.tgz#4088433b46b3b1ba259d78785d8e96f73ba02439"
-  optionalDependencies:
-    graceful-fs "^4.1.9"
 
 lazy-ass@1.6.0:
   version "1.6.0"
@@ -4971,7 +4465,7 @@ longest@^1.0.1:
   version "1.0.1"
   resolved "https://npm.heyday.net.nz/longest/-/longest-1.0.1.tgz#30a0b2da38f73770e8294a0d22e6625ed77d0097"
 
-loose-envify@^1.0.0, loose-envify@^1.2.0, loose-envify@^1.3.1:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.3.1:
   version "1.3.1"
   resolved "https://npm.heyday.net.nz/loose-envify/-/loose-envify-1.3.1.tgz#d1a8ad33fa9ce0e713d65fdd0ac8b748d478c848"
   dependencies:
@@ -4984,21 +4478,7 @@ loud-rejection@^1.0.0:
     currently-unhandled "^0.4.1"
     signal-exit "^3.0.0"
 
-lower-case-first@^1.0.0:
-  version "1.0.2"
-  resolved "https://npm.heyday.net.nz/lower-case-first/-/lower-case-first-1.0.2.tgz#e5da7c26f29a7073be02d52bac9980e5922adfa1"
-  dependencies:
-    lower-case "^1.1.2"
-
-lower-case@^1.1.0, lower-case@^1.1.1, lower-case@^1.1.2:
-  version "1.1.4"
-  resolved "https://npm.heyday.net.nz/lower-case/-/lower-case-1.1.4.tgz#9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac"
-
-lowercase-keys@^1.0.0:
-  version "1.0.0"
-  resolved "https://npm.heyday.net.nz/lowercase-keys/-/lowercase-keys-1.0.0.tgz#4e3366b39e7f5457e35f1324bdf6f88d0bfc7306"
-
-lru-cache@^4.0.1, lru-cache@^4.1.1:
+lru-cache@^4.0.1:
   version "4.1.1"
   resolved "https://npm.heyday.net.nz/lru-cache/-/lru-cache-4.1.1.tgz#622e32e82488b49279114a4f9ecf45e7cd6bba55"
   dependencies:
@@ -5028,10 +4508,6 @@ makeerror@1.0.x:
 map-obj@^1.0.0, map-obj@^1.0.1:
   version "1.0.1"
   resolved "https://npm.heyday.net.nz/map-obj/-/map-obj-1.0.1.tgz#d933ceb9205d82bdcf4886f6742bdc2b4dea146d"
-
-marker-clusterer-plus@^2.1.4:
-  version "2.1.4"
-  resolved "https://npm.heyday.net.nz/marker-clusterer-plus/-/marker-clusterer-plus-2.1.4.tgz#f8eff74d599dab3b7d0e3fed5264ea0e704f5d67"
 
 math-expression-evaluator@^1.2.14:
   version "1.2.17"
@@ -5083,27 +4559,6 @@ merge-descriptors@1.0.1:
 merge@^1.1.3:
   version "1.2.0"
   resolved "https://npm.heyday.net.nz/merge/-/merge-1.2.0.tgz#7531e39d4949c281a66b8c5a6e0265e8b05894da"
-
-metalsmith@^2.1.0:
-  version "2.3.0"
-  resolved "https://npm.heyday.net.nz/metalsmith/-/metalsmith-2.3.0.tgz#833afbb5a2a6385e2d9ae3d935e39e33eaea5231"
-  dependencies:
-    absolute "0.0.1"
-    chalk "^1.1.3"
-    clone "^1.0.2"
-    co-fs-extra "^1.2.1"
-    commander "^2.6.0"
-    gray-matter "^2.0.0"
-    has-generators "^1.0.1"
-    is "^3.1.0"
-    is-utf8 "~0.2.0"
-    recursive-readdir "^2.1.0"
-    rimraf "^2.2.8"
-    stat-mode "^0.2.0"
-    thunkify "^2.1.2"
-    unyield "0.0.1"
-    ware "^1.2.0"
-    win-fork "^1.1.1"
 
 methods@~1.1.2:
   version "1.1.2"
@@ -5174,12 +4629,6 @@ minimalistic-crypto-utils@^1.0.0, minimalistic-crypto-utils@^1.0.1:
   version "1.0.1"
   resolved "https://npm.heyday.net.nz/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
 
-minimatch@3.0.3:
-  version "3.0.3"
-  resolved "https://npm.heyday.net.nz/minimatch/-/minimatch-3.0.3.tgz#2a4e4090b96b2db06a9d7df01055a62a77c9b774"
-  dependencies:
-    brace-expansion "^1.0.0"
-
 minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.3, minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://npm.heyday.net.nz/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
@@ -5241,15 +4690,6 @@ multicast-dns@^6.0.1:
     dns-packet "^1.0.1"
     thunky "^0.1.0"
 
-multimatch@^2.1.0:
-  version "2.1.0"
-  resolved "https://npm.heyday.net.nz/multimatch/-/multimatch-2.1.0.tgz#9c7906a22fb4c02919e2f5f75161b4cdbd4b2a2b"
-  dependencies:
-    array-differ "^1.0.0"
-    array-union "^1.0.1"
-    arrify "^1.0.0"
-    minimatch "^3.0.0"
-
 mute-stream@0.0.7:
   version "0.0.7"
   resolved "https://npm.heyday.net.nz/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
@@ -5262,21 +4702,9 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://npm.heyday.net.nz/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
 
-ncname@1.0.x:
-  version "1.0.0"
-  resolved "https://npm.heyday.net.nz/ncname/-/ncname-1.0.0.tgz#5b57ad18b1ca092864ef62b0b1ed8194f383b71c"
-  dependencies:
-    xml-char-classes "^1.0.0"
-
 negotiator@0.6.1:
   version "0.6.1"
   resolved "https://npm.heyday.net.nz/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
-
-no-case@^2.2.0:
-  version "2.3.2"
-  resolved "https://npm.heyday.net.nz/no-case/-/no-case-2.3.2.tgz#60b813396be39b3f1288a4c1ed5d1e7d28b464ac"
-  dependencies:
-    lower-case "^1.1.1"
 
 node-fetch@^1.0.1:
   version "1.7.3"
@@ -5386,13 +4814,6 @@ normalize-url@^1.4.0:
     prepend-http "^1.0.0"
     query-string "^4.1.0"
     sort-keys "^1.0.0"
-
-npm-conf@^1.1.0:
-  version "1.1.3"
-  resolved "https://npm.heyday.net.nz/npm-conf/-/npm-conf-1.1.3.tgz#256cc47bd0e218c259c4e9550bf413bc2192aff9"
-  dependencies:
-    config-chain "^1.1.11"
-    pify "^3.0.0"
 
 npm-run-path@^2.0.0:
   version "2.0.2"
@@ -5527,15 +4948,6 @@ ora@^0.2.3:
     cli-spinners "^0.1.2"
     object-assign "^4.0.1"
 
-ora@^1.3.0:
-  version "1.3.0"
-  resolved "https://npm.heyday.net.nz/ora/-/ora-1.3.0.tgz#80078dd2b92a934af66a3ad72a5b910694ede51a"
-  dependencies:
-    chalk "^1.1.1"
-    cli-cursor "^2.1.0"
-    cli-spinners "^1.0.0"
-    log-symbols "^1.0.2"
-
 original@>=0.0.5:
   version "1.0.0"
   resolved "https://npm.heyday.net.nz/original/-/original-1.0.0.tgz#9147f93fa1696d04be61e01bd50baeaca656bd3b"
@@ -5601,12 +5013,6 @@ pako@~1.0.5:
   version "1.0.6"
   resolved "https://npm.heyday.net.nz/pako/-/pako-1.0.6.tgz#0101211baa70c4bca4a0f63f2206e97b7dfaf258"
 
-param-case@^2.1.0:
-  version "2.1.1"
-  resolved "https://npm.heyday.net.nz/param-case/-/param-case-2.1.1.tgz#df94fd8cf6531ecf75e6bef9a0858fbc72be2247"
-  dependencies:
-    no-case "^2.2.0"
-
 parse-asn1@^5.0.0:
   version "5.1.0"
   resolved "https://npm.heyday.net.nz/parse-asn1/-/parse-asn1-5.1.0.tgz#37c4f9b7ed3ab65c74817b5f2480937fbf97c712"
@@ -5658,22 +5064,9 @@ parseurl@~1.3.2:
   version "1.3.2"
   resolved "https://npm.heyday.net.nz/parseurl/-/parseurl-1.3.2.tgz#fc289d4ed8993119460c156253262cdc8de65bf3"
 
-pascal-case@^2.0.0:
-  version "2.0.1"
-  resolved "https://npm.heyday.net.nz/pascal-case/-/pascal-case-2.0.1.tgz#2d578d3455f660da65eca18ef95b4e0de912761e"
-  dependencies:
-    camel-case "^3.0.0"
-    upper-case-first "^1.1.0"
-
 path-browserify@0.0.0:
   version "0.0.0"
   resolved "https://npm.heyday.net.nz/path-browserify/-/path-browserify-0.0.0.tgz#a0b870729aae214005b7d5032ec2cbbb0fb4451a"
-
-path-case@^2.1.0:
-  version "2.1.1"
-  resolved "https://npm.heyday.net.nz/path-case/-/path-case-2.1.1.tgz#94b8037c372d3fe2906e465bb45e25d226e8eea5"
-  dependencies:
-    no-case "^2.2.0"
 
 path-exists@^2.0.0:
   version "2.1.0"
@@ -5844,7 +5237,7 @@ postcss-filter-plugins@^2.0.0:
     postcss "^5.0.4"
     uniqid "^4.0.0"
 
-postcss-load-config@^1.1.0, postcss-load-config@^1.2.0:
+postcss-load-config@^1.2.0:
   version "1.2.0"
   resolved "https://npm.heyday.net.nz/postcss-load-config/-/postcss-load-config-1.2.0.tgz#539e9afc9ddc8620121ebf9d8c3673e0ce50d28a"
   dependencies:
@@ -6053,7 +5446,7 @@ postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0
     source-map "^0.5.6"
     supports-color "^3.2.3"
 
-postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.8:
+postcss@^6.0.0, postcss@^6.0.1:
   version "6.0.14"
   resolved "https://npm.heyday.net.nz/postcss/-/postcss-6.0.14.tgz#5534c72114739e75d0afcf017db853099f562885"
   dependencies:
@@ -6065,17 +5458,13 @@ prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "https://npm.heyday.net.nz/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
 
-prepend-http@^1.0.0, prepend-http@^1.0.1:
+prepend-http@^1.0.0:
   version "1.0.4"
   resolved "https://npm.heyday.net.nz/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
 
 preserve@^0.2.0:
   version "0.2.0"
   resolved "https://npm.heyday.net.nz/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
-
-prettier@^1.7.0:
-  version "1.8.2"
-  resolved "https://npm.heyday.net.nz/prettier/-/prettier-1.8.2.tgz#bff83e7fd573933c607875e5ba3abbdffb96aeb8"
 
 pretty-format@^21.2.1:
   version "21.2.1"
@@ -6084,7 +5473,7 @@ pretty-format@^21.2.1:
     ansi-regex "^3.0.0"
     ansi-styles "^3.2.0"
 
-private@^0.1.6, private@^0.1.7, private@~0.1.5:
+private@^0.1.6, private@^0.1.7:
   version "0.1.8"
   resolved "https://npm.heyday.net.nz/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
 
@@ -6121,10 +5510,6 @@ prop-types@^15.6.0:
     fbjs "^0.8.16"
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
-
-proto-list@~1.2.1:
-  version "1.2.4"
-  resolved "https://npm.heyday.net.nz/proto-list/-/proto-list-1.2.4.tgz#212d5bfe1318306a420f6402b8e26ff39647a849"
 
 proxy-addr@~2.0.2:
   version "2.0.2"
@@ -6258,11 +5643,23 @@ rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-read-metadata@^1.0.0:
-  version "1.0.0"
-  resolved "https://npm.heyday.net.nz/read-metadata/-/read-metadata-1.0.0.tgz#6df9cbe51184e8ceb7d0668b40ee5191e6f3dac6"
+react-dom@^16.2.0:
+  version "16.2.0"
+  resolved "https://npm.heyday.net.nz/react-dom/-/react-dom-16.2.0.tgz#69003178601c0ca19b709b33a83369fe6124c044"
   dependencies:
-    yaml-js "0.0.8"
+    fbjs "^0.8.16"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.0"
+
+react@^16.2.0:
+  version "16.2.0"
+  resolved "https://npm.heyday.net.nz/react/-/react-16.2.0.tgz#a31bd2dab89bff65d42134fa187f24d054c273ba"
+  dependencies:
+    fbjs "^0.8.16"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.0"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -6294,7 +5691,7 @@ read-pkg@^2.0.0:
     normalize-package-data "^2.3.2"
     path-type "^2.0.0"
 
-readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.5, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.2.2, readable-stream@^2.2.6, readable-stream@^2.2.9, readable-stream@^2.3.3:
+readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.2.2, readable-stream@^2.2.6, readable-stream@^2.2.9, readable-stream@^2.3.3:
   version "2.3.3"
   resolved "https://npm.heyday.net.nz/readable-stream/-/readable-stream-2.3.3.tgz#368f2512d79f9d46fdfc71349ae7878bbc1eb95c"
   dependencies:
@@ -6314,21 +5711,6 @@ readdirp@^2.0.0:
     minimatch "^3.0.2"
     readable-stream "^2.0.2"
     set-immediate-shim "^1.0.1"
-
-recast@~0.11.12:
-  version "0.11.23"
-  resolved "https://npm.heyday.net.nz/recast/-/recast-0.11.23.tgz#451fd3004ab1e4df9b4e4b66376b2a21912462d3"
-  dependencies:
-    ast-types "0.9.6"
-    esprima "~3.1.0"
-    private "~0.1.5"
-    source-map "~0.5.0"
-
-recursive-readdir@^2.1.0:
-  version "2.2.1"
-  resolved "https://npm.heyday.net.nz/recursive-readdir/-/recursive-readdir-2.2.1.tgz#90ef231d0778c5ce093c9a48d74e5c5422d13a99"
-  dependencies:
-    minimatch "3.0.3"
 
 redent@^1.0.0:
   version "1.0.0"
@@ -6350,10 +5732,6 @@ reduce-function-call@^1.0.1:
   resolved "https://npm.heyday.net.nz/reduce-function-call/-/reduce-function-call-1.0.2.tgz#5a200bf92e0e37751752fe45b0ab330fd4b6be99"
   dependencies:
     balanced-match "^0.4.2"
-
-reflect-metadata@^0.1.10:
-  version "0.1.10"
-  resolved "https://npm.heyday.net.nz/reflect-metadata/-/reflect-metadata-0.1.10.tgz#b4f83704416acad89988c9b15635d47e03b9344a"
 
 regenerate@^1.2.1:
   version "1.3.3"
@@ -6407,10 +5785,6 @@ regjsparser@^0.1.4:
   dependencies:
     jsesc "~0.5.0"
 
-relateurl@0.2.x:
-  version "0.2.7"
-  resolved "https://npm.heyday.net.nz/relateurl/-/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
-
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
   resolved "https://npm.heyday.net.nz/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
@@ -6462,7 +5836,7 @@ request@2.81.0:
     tunnel-agent "^0.6.0"
     uuid "^3.0.0"
 
-request@^2.67.0, request@^2.79.0:
+request@^2.79.0:
   version "2.83.0"
   resolved "https://npm.heyday.net.nz/request/-/request-2.83.0.tgz#ca0b65da02ed62935887808e6f510381034e3356"
   dependencies:
@@ -6501,10 +5875,6 @@ require-main-filename@^1.0.1:
   version "1.0.1"
   resolved "https://npm.heyday.net.nz/require-main-filename/-/require-main-filename-1.0.1.tgz#97f717b69d48784f5f526a6c5aa8ffdda055a4d1"
 
-require-package-name@^2.0.1:
-  version "2.0.1"
-  resolved "https://npm.heyday.net.nz/require-package-name/-/require-package-name-2.0.1.tgz#c11e97276b65b8e2923f75dabf5fb2ef0c3841b9"
-
 require-uncached@^1.0.3:
   version "1.0.3"
   resolved "https://npm.heyday.net.nz/require-uncached/-/require-uncached-1.0.3.tgz#4e0d56d6c9662fd31e43011c4b95aa49955421d3"
@@ -6534,7 +5904,7 @@ resolve@1.1.7:
   version "1.1.7"
   resolved "https://npm.heyday.net.nz/resolve/-/resolve-1.1.7.tgz#203114d82ad2c5ed9e8e0411b3932875e889e97b"
 
-resolve@^1.2.0, resolve@^1.3.3, resolve@^1.4.0:
+resolve@^1.2.0, resolve@^1.3.3:
   version "1.5.0"
   resolved "https://npm.heyday.net.nz/resolve/-/resolve-1.5.0.tgz#1f09acce796c9a762579f31b2c1cc4c3cddf9f36"
   dependencies:
@@ -6564,7 +5934,7 @@ right-align@^0.1.1:
   dependencies:
     align-text "^0.1.1"
 
-rimraf@2, rimraf@^2.2.8, rimraf@^2.5.0, rimraf@^2.5.1, rimraf@^2.6.1:
+rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1:
   version "2.6.2"
   resolved "https://npm.heyday.net.nz/rimraf/-/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
   dependencies:
@@ -6631,12 +6001,6 @@ scrolltop@0.0.1:
   version "0.0.1"
   resolved "https://npm.heyday.net.nz/scrolltop/-/scrolltop-0.0.1.tgz#afd2251618d76446ab1727ec2ed7b9b5bf534973"
 
-seek-bzip@^1.0.5:
-  version "1.0.5"
-  resolved "https://npm.heyday.net.nz/seek-bzip/-/seek-bzip-1.0.5.tgz#cfe917cb3d274bcffac792758af53173eb1fabdc"
-  dependencies:
-    commander "~2.8.1"
-
 select-hose@^2.0.0:
   version "2.0.0"
   resolved "https://npm.heyday.net.nz/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
@@ -6647,7 +6011,7 @@ selfsigned@^1.9.1:
   dependencies:
     node-forge "0.6.33"
 
-"semver@2 || 3 || 4 || 5", semver@^5.1.0, semver@^5.3.0, semver@^5.4.1:
+"semver@2 || 3 || 4 || 5", semver@^5.3.0:
   version "5.4.1"
   resolved "https://npm.heyday.net.nz/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
 
@@ -6672,13 +6036,6 @@ send@0.16.1:
     on-finished "~2.3.0"
     range-parser "~1.2.0"
     statuses "~1.3.1"
-
-sentence-case@^2.1.0:
-  version "2.1.1"
-  resolved "https://npm.heyday.net.nz/sentence-case/-/sentence-case-2.1.1.tgz#1f6e2dda39c168bf92d13f86d4a918933f667ed4"
-  dependencies:
-    no-case "^2.2.0"
-    upper-case-first "^1.1.2"
 
 serve-index@^1.7.2:
   version "1.9.1"
@@ -6759,12 +6116,6 @@ slice-ansi@1.0.0:
   resolved "https://npm.heyday.net.nz/slice-ansi/-/slice-ansi-1.0.0.tgz#044f1a49d8842ff307aad6b505ed178bd950134d"
   dependencies:
     is-fullwidth-code-point "^2.0.0"
-
-snake-case@^2.1.0:
-  version "2.1.0"
-  resolved "https://npm.heyday.net.nz/snake-case/-/snake-case-2.1.0.tgz#41bdb1b73f30ec66a04d4e2cad1b76387d4d6d9f"
-  dependencies:
-    no-case "^2.2.0"
 
 sntp@1.x.x:
   version "1.0.9"
@@ -6856,13 +6207,13 @@ source-map-support@^0.4.15:
   dependencies:
     source-map "^0.5.6"
 
-source-map@0.4.x, source-map@^0.4.4:
+source-map@^0.4.4:
   version "0.4.4"
   resolved "https://npm.heyday.net.nz/source-map/-/source-map-0.4.4.tgz#eba4f5da9c0dc999de68032d8b4f76173652036b"
   dependencies:
     amdefine ">=0.0.4"
 
-source-map@^0.5.3, source-map@^0.5.6, source-map@~0.5.0, source-map@~0.5.1, source-map@~0.5.6:
+source-map@^0.5.3, source-map@^0.5.6, source-map@~0.5.1, source-map@~0.5.6:
   version "0.5.7"
   resolved "https://npm.heyday.net.nz/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
 
@@ -6924,10 +6275,6 @@ sshpk@^1.7.0:
     ecc-jsbn "~0.1.1"
     jsbn "~0.1.0"
     tweetnacl "~0.14.0"
-
-stat-mode@^0.2.0:
-  version "0.2.2"
-  resolved "https://npm.heyday.net.nz/stat-mode/-/stat-mode-0.2.2.tgz#e6c80b623123d7d80cf132ce538f346289072502"
 
 "statuses@>= 1.3.1 < 2":
   version "1.4.0"
@@ -7016,12 +6363,6 @@ strip-bom@^2.0.0:
   dependencies:
     is-utf8 "^0.2.0"
 
-strip-dirs@^2.0.0:
-  version "2.1.0"
-  resolved "https://npm.heyday.net.nz/strip-dirs/-/strip-dirs-2.1.0.tgz#4987736264fc344cf20f6c34aca9d13d1d4ed6c5"
-  dependencies:
-    is-natural-number "^4.0.1"
-
 strip-eof@^1.0.0:
   version "1.0.0"
   resolved "https://npm.heyday.net.nz/strip-eof/-/strip-eof-1.0.0.tgz#bb43ff5598a6eb05d89b59fcd129c983313606bf"
@@ -7035,12 +6376,6 @@ strip-indent@^1.0.1:
 strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://npm.heyday.net.nz/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
-
-strip-outer@^1.0.0:
-  version "1.0.0"
-  resolved "https://npm.heyday.net.nz/strip-outer/-/strip-outer-1.0.0.tgz#aac0ba60d2e90c5d4f275fd8869fd9a2d310ffb8"
-  dependencies:
-    escape-string-regexp "^1.0.2"
 
 style-loader@^0.19.0:
   version "0.19.0"
@@ -7076,13 +6411,6 @@ svgo@^0.7.0:
     mkdirp "~0.5.1"
     sax "~1.2.1"
     whet.extend "~0.9.9"
-
-swap-case@^1.1.0:
-  version "1.1.2"
-  resolved "https://npm.heyday.net.nz/swap-case/-/swap-case-1.1.2.tgz#c39203a4587385fad3c850a0bd1bcafa081974e3"
-  dependencies:
-    lower-case "^1.1.1"
-    upper-case "^1.1.1"
 
 symbol-observable@^1.0.1, symbol-observable@^1.0.2:
   version "1.1.0"
@@ -7120,15 +6448,6 @@ tar-pack@^3.4.0:
     tar "^2.2.1"
     uid-number "^0.0.6"
 
-tar-stream@^1.5.2:
-  version "1.5.5"
-  resolved "https://npm.heyday.net.nz/tar-stream/-/tar-stream-1.5.5.tgz#5cad84779f45c83b1f2508d96b09d88c7218af55"
-  dependencies:
-    bl "^1.0.0"
-    end-of-stream "^1.0.0"
-    readable-stream "^2.0.0"
-    xtend "^4.0.0"
-
 tar@^2.2.1:
   version "2.2.1"
   resolved "https://npm.heyday.net.nz/tar/-/tar-2.2.1.tgz#8e4d2a256c0e2185c6b18ad694aec968b83cb1d1"
@@ -7159,37 +6478,17 @@ throttleit@~0.0.2:
   version "0.0.2"
   resolved "https://npm.heyday.net.nz/throttleit/-/throttleit-0.0.2.tgz#cfedf88e60c00dd9697b61fdd2a8343a9b680eaf"
 
-through@^2.3.6, through@~2.3.6:
+through@^2.3.6:
   version "2.3.8"
   resolved "https://npm.heyday.net.nz/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
-
-thunkify-wrap@~1.0.4:
-  version "1.0.4"
-  resolved "https://npm.heyday.net.nz/thunkify-wrap/-/thunkify-wrap-1.0.4.tgz#b52be548ddfefda20e00b58c6096762b43dd6880"
-  dependencies:
-    enable "1"
-
-thunkify@^2.1.2:
-  version "2.1.2"
-  resolved "https://npm.heyday.net.nz/thunkify/-/thunkify-2.1.2.tgz#faa0e9d230c51acc95ca13a361ac05ca7e04553d"
 
 thunky@^0.1.0:
   version "0.1.0"
   resolved "https://npm.heyday.net.nz/thunky/-/thunky-0.1.0.tgz#bf30146824e2b6e67b0f2d7a4ac8beb26908684e"
 
-tildify@^1.2.0:
-  version "1.2.0"
-  resolved "https://npm.heyday.net.nz/tildify/-/tildify-1.2.0.tgz#dcec03f55dca9b7aa3e5b04f21817eb56e63588a"
-  dependencies:
-    os-homedir "^1.0.0"
-
 time-stamp@^2.0.0:
   version "2.0.0"
   resolved "https://npm.heyday.net.nz/time-stamp/-/time-stamp-2.0.0.tgz#95c6a44530e15ba8d6f4a3ecb8c3a3fac46da357"
-
-timed-out@^4.0.0:
-  version "4.0.1"
-  resolved "https://npm.heyday.net.nz/timed-out/-/timed-out-4.0.1.tgz#f32eacac5a175bea25d7fab565ab3ed8741ef56f"
 
 timers-browserify@^2.0.4:
   version "2.0.4"
@@ -7200,13 +6499,6 @@ timers-browserify@^2.0.4:
 tiny-emitter@^1.0.0:
   version "1.2.0"
   resolved "https://npm.heyday.net.nz/tiny-emitter/-/tiny-emitter-1.2.0.tgz#6dc845052cb08ebefc1874723b58f24a648c3b6f"
-
-title-case@^2.1.0:
-  version "2.1.1"
-  resolved "https://npm.heyday.net.nz/title-case/-/title-case-2.1.1.tgz#3e127216da58d2bc5becf137ab91dae3a7cd8faa"
-  dependencies:
-    no-case "^2.2.0"
-    upper-case "^1.0.3"
 
 tmp@0.0.31:
   version "0.0.31"
@@ -7244,10 +6536,6 @@ to-fast-properties@^2.0.0:
   version "2.0.0"
   resolved "https://npm.heyday.net.nz/to-fast-properties/-/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
 
-toml@^2.3.2:
-  version "2.3.3"
-  resolved "https://npm.heyday.net.nz/toml/-/toml-2.3.3.tgz#8d683d729577cb286231dfc7a8affe58d31728fb"
-
 tough-cookie@^2.3.2, tough-cookie@~2.3.0, tough-cookie@~2.3.3:
   version "2.3.3"
   resolved "https://npm.heyday.net.nz/tough-cookie/-/tough-cookie-2.3.3.tgz#0b618a5565b6dea90bf3425d04d55edc475a7561"
@@ -7261,12 +6549,6 @@ tr46@~0.0.3:
 trim-newlines@^1.0.0:
   version "1.0.0"
   resolved "https://npm.heyday.net.nz/trim-newlines/-/trim-newlines-1.0.0.tgz#5887966bb582a4503a41eb524f7d35011815a613"
-
-trim-repeated@^1.0.0:
-  version "1.0.0"
-  resolved "https://npm.heyday.net.nz/trim-repeated/-/trim-repeated-1.0.0.tgz#e3646a2ea4e891312bf7eace6cfb05380bc01c21"
-  dependencies:
-    escape-string-regexp "^1.0.2"
 
 trim-right@^1.0.1:
   version "1.0.1"
@@ -7307,10 +6589,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://npm.heyday.net.nz/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-typescript@2.5.3:
-  version "2.5.3"
-  resolved "https://npm.heyday.net.nz/typescript/-/typescript-2.5.3.tgz#df3dcdc38f3beb800d4bc322646b04a3f6ca7f0d"
-
 ua-parser-js@^0.7.9:
   version "0.7.17"
   resolved "https://npm.heyday.net.nz/ua-parser-js/-/ua-parser-js-0.7.17.tgz#e9ec5f9498b9ec910e7ae3ac626a805c4d09ecac"
@@ -7321,15 +6599,6 @@ uglify-es@^3.0.28:
   dependencies:
     commander "~2.12.1"
     source-map "~0.6.1"
-
-uglify-js@2.6.x:
-  version "2.6.4"
-  resolved "https://npm.heyday.net.nz/uglify-js/-/uglify-js-2.6.4.tgz#65ea2fb3059c9394692f15fed87c2b36c16b9adf"
-  dependencies:
-    async "~0.2.6"
-    source-map "~0.5.1"
-    uglify-to-browserify "~1.0.0"
-    yargs "~3.10.0"
 
 uglify-js@^2.6, uglify-js@^2.8.29:
   version "2.8.29"
@@ -7356,10 +6625,6 @@ uid-number@^0.0.6:
   version "0.0.6"
   resolved "https://npm.heyday.net.nz/uid-number/-/uid-number-0.0.6.tgz#0ea10e8035e8eb5b8e4449f06da1c730663baa81"
 
-uid@0.0.2:
-  version "0.0.2"
-  resolved "https://npm.heyday.net.nz/uid/-/uid-0.0.2.tgz#5e4a5d4b78138b4f70f89fd3c76fc59aa9d2f103"
-
 ultron@1.0.x:
   version "1.0.2"
   resolved "https://npm.heyday.net.nz/ultron/-/ultron-1.0.2.tgz#ace116ab557cd197386a4e88f4685378c8b2e4fa"
@@ -7367,13 +6632,6 @@ ultron@1.0.x:
 ultron@~1.1.0:
   version "1.1.1"
   resolved "https://npm.heyday.net.nz/ultron/-/ultron-1.1.1.tgz#9fe1536a10a664a65266a1e3ccf85fd36302bc9c"
-
-unbzip2-stream@^1.0.9:
-  version "1.2.5"
-  resolved "https://npm.heyday.net.nz/unbzip2-stream/-/unbzip2-stream-1.2.5.tgz#73a033a567bbbde59654b193c44d48a7e4f43c47"
-  dependencies:
-    buffer "^3.0.1"
-    through "^2.3.6"
 
 uniq@^1.0.1:
   version "1.0.1"
@@ -7397,26 +6655,6 @@ unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
   resolved "https://npm.heyday.net.nz/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
 
-unyield@0.0.1:
-  version "0.0.1"
-  resolved "https://npm.heyday.net.nz/unyield/-/unyield-0.0.1.tgz#150e65da42bf7742445b958a64eb9b85d1d2b180"
-  dependencies:
-    co "~3.1.0"
-
-unzip-response@^2.0.1:
-  version "2.0.1"
-  resolved "https://npm.heyday.net.nz/unzip-response/-/unzip-response-2.0.1.tgz#d2f0f737d16b0615e72a6935ed04214572d56f97"
-
-upper-case-first@^1.1.0, upper-case-first@^1.1.2:
-  version "1.1.2"
-  resolved "https://npm.heyday.net.nz/upper-case-first/-/upper-case-first-1.1.2.tgz#5d79bedcff14419518fd2edb0a0507c9b6859115"
-  dependencies:
-    upper-case "^1.1.1"
-
-upper-case@^1.0.3, upper-case@^1.1.0, upper-case@^1.1.1, upper-case@^1.1.3:
-  version "1.1.3"
-  resolved "https://npm.heyday.net.nz/upper-case/-/upper-case-1.1.3.tgz#f6b4501c2ec4cdd26ba78be7222961de77621598"
-
 url-loader@^0.6.2:
   version "0.6.2"
   resolved "https://npm.heyday.net.nz/url-loader/-/url-loader-0.6.2.tgz#a007a7109620e9d988d14bce677a1decb9a993f7"
@@ -7424,12 +6662,6 @@ url-loader@^0.6.2:
     loader-utils "^1.0.2"
     mime "^1.4.1"
     schema-utils "^0.3.0"
-
-url-parse-lax@^1.0.0:
-  version "1.0.0"
-  resolved "https://npm.heyday.net.nz/url-parse-lax/-/url-parse-lax-1.0.0.tgz#7af8f303645e9bd79a272e7a14ac68bc0609da73"
-  dependencies:
-    prepend-http "^1.0.1"
 
 url-parse@1.0.x:
   version "1.0.5"
@@ -7445,22 +6677,12 @@ url-parse@^1.1.8:
     querystringify "~1.0.0"
     requires-port "~1.0.0"
 
-url-to-options@^1.0.1:
-  version "1.0.1"
-  resolved "https://npm.heyday.net.nz/url-to-options/-/url-to-options-1.0.1.tgz#1505a03a289a48cbd7a434efbaeec5055f5633a9"
-
 url@0.11.0, url@^0.11.0:
   version "0.11.0"
   resolved "https://npm.heyday.net.nz/url/-/url-0.11.0.tgz#3838e97cfc60521eb73c525a8e55bfdd9e2e28f1"
   dependencies:
     punycode "1.3.2"
     querystring "0.2.0"
-
-user-home@^2.0.0:
-  version "2.0.0"
-  resolved "https://npm.heyday.net.nz/user-home/-/user-home-2.0.0.tgz#9c70bfd8169bc1dcbf48604e0f04b8b49cde9e9f"
-  dependencies:
-    os-homedir "^1.0.0"
 
 util-deprecate@~1.0.1:
   version "1.0.2"
@@ -7491,12 +6713,6 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "~1.0.0"
     spdx-expression-parse "~1.0.0"
 
-validate-npm-package-name@^3.0.0:
-  version "3.0.0"
-  resolved "https://npm.heyday.net.nz/validate-npm-package-name/-/validate-npm-package-name-3.0.0.tgz#5fa912d81eb7d0c74afc140de7317f0ca7df437e"
-  dependencies:
-    builtins "^1.0.3"
-
 vary@~1.1.2:
   version "1.1.2"
   resolved "https://npm.heyday.net.nz/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
@@ -7523,156 +6739,11 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-vue-class-component@^6.0.0:
-  version "6.1.1"
-  resolved "https://npm.heyday.net.nz/vue-class-component/-/vue-class-component-6.1.1.tgz#2e095036648b428a4f1e9ec8a8bbe7833a6d1879"
-
-vue-cli@^2.9.2:
-  version "2.9.2"
-  resolved "https://npm.heyday.net.nz/vue-cli/-/vue-cli-2.9.2.tgz#fb247c0f41c50c865e8d77caba18eb2b3936372c"
-  dependencies:
-    uid "0.0.2"
-    async "^2.4.0"
-    chalk "^2.1.0"
-    coffee-script "1.12.7"
-    commander "^2.9.0"
-    consolidate "^0.14.0"
-    download-git-repo "^1.0.1"
-    handlebars "^4.0.5"
-    inquirer "^3.3.0"
-    metalsmith "^2.1.0"
-    minimatch "^3.0.0"
-    multimatch "^2.1.0"
-    ora "^1.3.0"
-    read-metadata "^1.0.0"
-    request "^2.67.0"
-    rimraf "^2.5.0"
-    semver "^5.1.0"
-    tildify "^1.2.0"
-    user-home "^2.0.0"
-    validate-npm-package-name "^3.0.0"
-
-vue-clickaway@^2.1.0:
-  version "2.1.0"
-  resolved "https://npm.heyday.net.nz/vue-clickaway/-/vue-clickaway-2.1.0.tgz#392de764751f31cd20787e8fb3a6e319825f8d4f"
-  dependencies:
-    loose-envify "^1.2.0"
-
-vue-countup-v2@^0.1.2:
-  version "0.1.2"
-  resolved "https://npm.heyday.net.nz/vue-countup-v2/-/vue-countup-v2-0.1.2.tgz#ca3b7b7a6c9e293164f4f6e3130c51721548cd8e"
-  dependencies:
-    countup.js "^1.8.1"
-    vue "^2.1.8"
-
-vue-headroom@^0.8.1:
-  version "0.8.1"
-  resolved "https://npm.heyday.net.nz/vue-headroom/-/vue-headroom-0.8.1.tgz#6a47219829f8268391a25d59a7e9af8c39ef7772"
-  dependencies:
-    raf "^3.4.0"
-
-vue-hot-reload-api@^2.2.0:
-  version "2.2.4"
-  resolved "https://npm.heyday.net.nz/vue-hot-reload-api/-/vue-hot-reload-api-2.2.4.tgz#683bd1d026c0d3b3c937d5875679e9a87ec6cd8f"
-
-vue-html-loader@^1.2.4:
-  version "1.2.4"
-  resolved "https://npm.heyday.net.nz/vue-html-loader/-/vue-html-loader-1.2.4.tgz#54ce489be06065c91dc2a1173122f3e004e0a253"
-  dependencies:
-    es6-templates "^0.2.2"
-    fastparse "^1.0.0"
-    html-minifier "^2.1.5"
-    loader-utils "^1.0.2"
-    object-assign "^4.1.0"
-
-vue-loader@^13.3.0:
-  version "13.5.0"
-  resolved "https://npm.heyday.net.nz/vue-loader/-/vue-loader-13.5.0.tgz#52f7b3790a267eff80012b77ea187a54586dd5d4"
-  dependencies:
-    consolidate "^0.14.0"
-    hash-sum "^1.0.2"
-    loader-utils "^1.1.0"
-    lru-cache "^4.1.1"
-    postcss "^6.0.8"
-    postcss-load-config "^1.1.0"
-    postcss-selector-parser "^2.0.0"
-    prettier "^1.7.0"
-    resolve "^1.4.0"
-    source-map "^0.6.1"
-    vue-hot-reload-api "^2.2.0"
-    vue-style-loader "^3.0.0"
-    vue-template-es2015-compiler "^1.6.0"
-
-vue-my-dropdown@^2.0.5:
-  version "2.0.5"
-  resolved "https://npm.heyday.net.nz/vue-my-dropdown/-/vue-my-dropdown-2.0.5.tgz#db11f3c340179e8d1e6ce5e5710a9771521f5f19"
-  dependencies:
-    vue "^2.4.2"
-    vue-template-compiler "^2.4.2"
-
-vue-property-decorator@6.0.0:
-  version "6.0.0"
-  resolved "https://npm.heyday.net.nz/vue-property-decorator/-/vue-property-decorator-6.0.0.tgz#bb651b293542e31db0d24f36f4b0250ef08d8515"
-  dependencies:
-    reflect-metadata "^0.1.10"
-    vue-class-component "^6.0.0"
-
-vue-scrollactive@^0.5.1:
-  version "0.5.1"
-  resolved "https://npm.heyday.net.nz/vue-scrollactive/-/vue-scrollactive-0.5.1.tgz#7e652b16d1eafea6df75ad596ef2345eae64f279"
-  dependencies:
-    bezier-easing "^2.0.3"
-
-vue-sticky@^3.3.1:
-  version "3.3.1"
-  resolved "https://npm.heyday.net.nz/vue-sticky/-/vue-sticky-3.3.1.tgz#0ba88f944c9cf0964bd4f7f5f9f7c3ec3c8dde31"
-
-vue-style-loader@^3.0.0:
-  version "3.0.3"
-  resolved "https://npm.heyday.net.nz/vue-style-loader/-/vue-style-loader-3.0.3.tgz#623658f81506aef9d121cdc113a4f5c9cac32df7"
-  dependencies:
-    hash-sum "^1.0.2"
-    loader-utils "^1.0.2"
-
-vue-template-compiler@2.5.9, vue-template-compiler@^2.4.2:
-  version "2.5.9"
-  resolved "https://npm.heyday.net.nz/vue-template-compiler/-/vue-template-compiler-2.5.9.tgz#7fabc73c8d3d12d32340cd86c5fc33e00e86d686"
-  dependencies:
-    de-indent "^1.0.2"
-    he "^1.1.0"
-
-vue-template-es2015-compiler@^1.6.0:
-  version "1.6.0"
-  resolved "https://npm.heyday.net.nz/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.6.0.tgz#dc42697133302ce3017524356a6c61b7b69b4a18"
-
-vue2-google-maps@^0.8.4:
-  version "0.8.4"
-  resolved "https://npm.heyday.net.nz/vue2-google-maps/-/vue2-google-maps-0.8.4.tgz#4c5201f8f79a54a8e7c56841677fa3f3bb1600ca"
-  dependencies:
-    babel-plugin-lodash "^3.2.11"
-    babel-plugin-transform-runtime "^6.15.0"
-    babel-runtime "^5.8.0"
-    marker-clusterer-plus "^2.1.4"
-
-vue@^2.1.8, vue@^2.4.2, vue@^2.5.9:
-  version "2.5.9"
-  resolved "https://npm.heyday.net.nz/vue/-/vue-2.5.9.tgz#b2380cd040915dca69881dafd121d760952e65f7"
-
-vuex@^3.0.1:
-  version "3.0.1"
-  resolved "https://npm.heyday.net.nz/vuex/-/vuex-3.0.1.tgz#e761352ebe0af537d4bb755a9b9dc4be3df7efd2"
-
 walker@~1.0.5:
   version "1.0.7"
   resolved "https://npm.heyday.net.nz/walker/-/walker-1.0.7.tgz#2f7f9b8fd10d677262b18a884e28d19618e028fb"
   dependencies:
     makeerror "1.0.x"
-
-ware@^1.2.0:
-  version "1.3.0"
-  resolved "https://npm.heyday.net.nz/ware/-/ware-1.3.0.tgz#d1b14f39d2e2cb4ab8c4098f756fe4b164e473d4"
-  dependencies:
-    wrap-fn "^0.1.0"
 
 watch@~0.18.0:
   version "0.18.0"
@@ -7874,10 +6945,6 @@ wide-align@^1.1.0:
   dependencies:
     string-width "^1.0.2"
 
-win-fork@^1.1.1:
-  version "1.1.1"
-  resolved "https://npm.heyday.net.nz/win-fork/-/win-fork-1.1.1.tgz#8f58e0656fca00adc8c86a2b89e3cd2d6a2d5e5e"
-
 window-size@0.1.0:
   version "0.1.0"
   resolved "https://npm.heyday.net.nz/window-size/-/window-size-0.1.0.tgz#5438cd2ea93b202efa3a19fe8887aee7c94f9c9d"
@@ -7917,12 +6984,6 @@ wrap-ansi@^2.0.0:
   dependencies:
     string-width "^1.0.1"
     strip-ansi "^3.0.1"
-
-wrap-fn@^0.1.0:
-  version "0.1.5"
-  resolved "https://npm.heyday.net.nz/wrap-fn/-/wrap-fn-0.1.5.tgz#f21b6e41016ff4a7e31720dbc63a09016bdf9845"
-  dependencies:
-    co "3.1.0"
 
 wrappy@1:
   version "1.0.2"
@@ -7968,10 +7029,6 @@ wtf-8@1.0.0:
   version "1.0.0"
   resolved "https://npm.heyday.net.nz/wtf-8/-/wtf-8-1.0.0.tgz#392d8ba2d0f1c34d1ee2d630f15d0efb68e1048a"
 
-xml-char-classes@^1.0.0:
-  version "1.0.0"
-  resolved "https://npm.heyday.net.nz/xml-char-classes/-/xml-char-classes-1.0.0.tgz#64657848a20ffc5df583a42ad8a277b4512bbc4d"
-
 xml-name-validator@^2.0.1:
   version "2.0.1"
   resolved "https://npm.heyday.net.nz/xml-name-validator/-/xml-name-validator-2.0.1.tgz#4d8b8f1eccd3419aa362061becef515e1e559635"
@@ -7991,10 +7048,6 @@ y18n@^3.2.1:
 yallist@^2.1.2:
   version "2.1.2"
   resolved "https://npm.heyday.net.nz/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
-
-yaml-js@0.0.8:
-  version "0.0.8"
-  resolved "https://npm.heyday.net.nz/yaml-js/-/yaml-js-0.0.8.tgz#87cfa5a9613f48e26005420d6a8ee0da6fe8daec"
 
 yargs-parser@^2.4.1:
   version "2.4.1"
@@ -8106,13 +7159,6 @@ yauzl@2.4.1:
 yauzl@2.8.0:
   version "2.8.0"
   resolved "https://npm.heyday.net.nz/yauzl/-/yauzl-2.8.0.tgz#79450aff22b2a9c5a41ef54e02db907ccfbf9ee2"
-  dependencies:
-    buffer-crc32 "~0.2.3"
-    fd-slicer "~1.0.1"
-
-yauzl@^2.4.2:
-  version "2.9.1"
-  resolved "https://npm.heyday.net.nz/yauzl/-/yauzl-2.9.1.tgz#a81981ea70a57946133883f029c5821a89359a7f"
   dependencies:
     buffer-crc32 "~0.2.3"
     fd-slicer "~1.0.1"
